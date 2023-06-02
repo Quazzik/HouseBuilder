@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "HouseBuilderWindow/1.0.0": {
+        "dependencies": {
+          "HouseBuilder": "1.0.0"
+        },
+        "runtime": {
+          "HouseBuilderWindow.dll": {}
+        }
+      },
+      "HouseBuilder/1.0.0": {
+        "runtime": {
+          "HouseBuilder.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HouseBuilderWindow/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "HouseBuilder/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

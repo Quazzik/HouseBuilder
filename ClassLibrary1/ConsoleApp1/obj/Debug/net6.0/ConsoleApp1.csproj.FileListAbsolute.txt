@@ -1,0 +1,90 @@
+C:\Users\yuako\source\repos\ClassLibrary1\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.exe
+C:\Users\yuako\source\repos\ClassLibrary1\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.deps.json
+C:\Users\yuako\source\repos\ClassLibrary1\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.runtimeconfig.json
+C:\Users\yuako\source\repos\ClassLibrary1\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.dll
+C:\Users\yuako\source\repos\ClassLibrary1\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.pdb
+C:\Users\yuako\source\repos\ClassLibrary1\ConsoleApp1\bin\Debug\net6.0\HouseBuilder.dll
+C:\Users\yuako\source\repos\ClassLibrary1\ConsoleApp1\bin\Debug\net6.0\HouseBuilder.pdb
+C:\Users\yuako\source\repos\ClassLibrary1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.csproj.AssemblyReference.cache
+C:\Users\yuako\source\repos\ClassLibrary1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yuako\source\repos\ClassLibrary1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.AssemblyInfoInputs.cache
+C:\Users\yuako\source\repos\ClassLibrary1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.AssemblyInfo.cs
+C:\Users\yuako\source\repos\ClassLibrary1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\yuako\source\repos\ClassLibrary1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.csproj.CopyComplete
+C:\Users\yuako\source\repos\ClassLibrary1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.dll
+C:\Users\yuako\source\repos\ClassLibrary1\ConsoleApp1\obj\Debug\net6.0\refint\ConsoleApp1.dll
+C:\Users\yuako\source\repos\ClassLibrary1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.pdb
+C:\Users\yuako\source\repos\ClassLibrary1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.genruntimeconfig.cache
+C:\Users\yuako\source\repos\ClassLibrary1\ConsoleApp1\obj\Debug\net6.0\ref\ConsoleApp1.dll
+C:\Users\Sorry\OneDrive\Рабочий стол\ClassLibrary1\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.exe
+C:\Users\Sorry\OneDrive\Рабочий стол\ClassLibrary1\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.deps.json
+C:\Users\Sorry\OneDrive\Рабочий стол\ClassLibrary1\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.runtimeconfig.json
+C:\Users\Sorry\OneDrive\Рабочий стол\ClassLibrary1\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.dll
+C:\Users\Sorry\OneDrive\Рабочий стол\ClassLibrary1\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.pdb
+C:\Users\Sorry\OneDrive\Рабочий стол\ClassLibrary1\ConsoleApp1\bin\Debug\net6.0\HouseBuilder.dll
+C:\Users\Sorry\OneDrive\Рабочий стол\ClassLibrary1\ConsoleApp1\bin\Debug\net6.0\HouseBuilder.pdb
+C:\Users\Sorry\OneDrive\Рабочий стол\ClassLibrary1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.csproj.AssemblyReference.cache
+C:\Users\Sorry\OneDrive\Рабочий стол\ClassLibrary1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sorry\OneDrive\Рабочий стол\ClassLibrary1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.AssemblyInfoInputs.cache
+C:\Users\Sorry\OneDrive\Рабочий стол\ClassLibrary1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.AssemblyInfo.cs
+C:\Users\Sorry\OneDrive\Рабочий стол\ClassLibrary1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\Sorry\OneDrive\Рабочий стол\ClassLibrary1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.csproj.CopyComplete
+C:\Users\Sorry\OneDrive\Рабочий стол\ClassLibrary1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.dll
+C:\Users\Sorry\OneDrive\Рабочий стол\ClassLibrary1\ConsoleApp1\obj\Debug\net6.0\refint\ConsoleApp1.dll
+C:\Users\Sorry\OneDrive\Рабочий стол\ClassLibrary1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.pdb
+C:\Users\Sorry\OneDrive\Рабочий стол\ClassLibrary1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.genruntimeconfig.cache
+C:\Users\Sorry\OneDrive\Рабочий стол\ClassLibrary1\ConsoleApp1\obj\Debug\net6.0\ref\ConsoleApp1.dll
+D:\Downloads\ClassLibrary1\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.exe
+D:\Downloads\ClassLibrary1\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.deps.json
+D:\Downloads\ClassLibrary1\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.runtimeconfig.json
+D:\Downloads\ClassLibrary1\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.dll
+D:\Downloads\ClassLibrary1\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.pdb
+D:\Downloads\ClassLibrary1\ConsoleApp1\bin\Debug\net6.0\HouseBuilder.dll
+D:\Downloads\ClassLibrary1\ConsoleApp1\bin\Debug\net6.0\HouseBuilder.pdb
+D:\Downloads\ClassLibrary1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.csproj.AssemblyReference.cache
+D:\Downloads\ClassLibrary1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Downloads\ClassLibrary1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.AssemblyInfoInputs.cache
+D:\Downloads\ClassLibrary1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.AssemblyInfo.cs
+D:\Downloads\ClassLibrary1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.csproj.CoreCompileInputs.cache
+D:\Downloads\ClassLibrary1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.csproj.CopyComplete
+D:\Downloads\ClassLibrary1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.dll
+D:\Downloads\ClassLibrary1\ConsoleApp1\obj\Debug\net6.0\refint\ConsoleApp1.dll
+D:\Downloads\ClassLibrary1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.pdb
+D:\Downloads\ClassLibrary1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.genruntimeconfig.cache
+D:\Downloads\ClassLibrary1\ConsoleApp1\obj\Debug\net6.0\ref\ConsoleApp1.dll
+U:\ClassLibrary1\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.exe
+U:\ClassLibrary1\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.deps.json
+U:\ClassLibrary1\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.runtimeconfig.json
+U:\ClassLibrary1\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.dll
+U:\ClassLibrary1\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.pdb
+U:\ClassLibrary1\ConsoleApp1\bin\Debug\net6.0\HouseBuilder.dll
+U:\ClassLibrary1\ConsoleApp1\bin\Debug\net6.0\HouseBuilder.pdb
+U:\ClassLibrary1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.csproj.AssemblyReference.cache
+U:\ClassLibrary1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+U:\ClassLibrary1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.AssemblyInfoInputs.cache
+U:\ClassLibrary1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.AssemblyInfo.cs
+U:\ClassLibrary1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.csproj.CoreCompileInputs.cache
+U:\ClassLibrary1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.csproj.CopyComplete
+U:\ClassLibrary1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.dll
+U:\ClassLibrary1\ConsoleApp1\obj\Debug\net6.0\refint\ConsoleApp1.dll
+U:\ClassLibrary1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.pdb
+U:\ClassLibrary1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.genruntimeconfig.cache
+U:\ClassLibrary1\ConsoleApp1\obj\Debug\net6.0\ref\ConsoleApp1.dll
+E:\trpo\ClassLibrary1\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.exe
+E:\trpo\ClassLibrary1\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.deps.json
+E:\trpo\ClassLibrary1\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.runtimeconfig.json
+E:\trpo\ClassLibrary1\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.dll
+E:\trpo\ClassLibrary1\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.pdb
+E:\trpo\ClassLibrary1\ConsoleApp1\bin\Debug\net6.0\HouseBuilder.dll
+E:\trpo\ClassLibrary1\ConsoleApp1\bin\Debug\net6.0\HouseBuilder.pdb
+E:\trpo\ClassLibrary1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.csproj.AssemblyReference.cache
+E:\trpo\ClassLibrary1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+E:\trpo\ClassLibrary1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.AssemblyInfoInputs.cache
+E:\trpo\ClassLibrary1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.AssemblyInfo.cs
+E:\trpo\ClassLibrary1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.csproj.CoreCompileInputs.cache
+E:\trpo\ClassLibrary1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.csproj.CopyComplete
+E:\trpo\ClassLibrary1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.dll
+E:\trpo\ClassLibrary1\ConsoleApp1\obj\Debug\net6.0\refint\ConsoleApp1.dll
+E:\trpo\ClassLibrary1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.pdb
+E:\trpo\ClassLibrary1\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.genruntimeconfig.cache
+E:\trpo\ClassLibrary1\ConsoleApp1\obj\Debug\net6.0\ref\ConsoleApp1.dll

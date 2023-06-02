@@ -1,0 +1,112 @@
+D:\Downloads\ClassLibrary1\HouseBuilderWindow\bin\Debug\net6.0-windows\HouseBuilderWindow.exe
+D:\Downloads\ClassLibrary1\HouseBuilderWindow\bin\Debug\net6.0-windows\HouseBuilderWindow.deps.json
+D:\Downloads\ClassLibrary1\HouseBuilderWindow\bin\Debug\net6.0-windows\HouseBuilderWindow.runtimeconfig.json
+D:\Downloads\ClassLibrary1\HouseBuilderWindow\bin\Debug\net6.0-windows\HouseBuilderWindow.dll
+D:\Downloads\ClassLibrary1\HouseBuilderWindow\bin\Debug\net6.0-windows\HouseBuilderWindow.pdb
+D:\Downloads\ClassLibrary1\HouseBuilderWindow\bin\Debug\net6.0-windows\HouseBuilder.dll
+D:\Downloads\ClassLibrary1\HouseBuilderWindow\bin\Debug\net6.0-windows\HouseBuilder.pdb
+D:\Downloads\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\HouseBuilderWindow.csproj.AssemblyReference.cache
+D:\Downloads\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\MainWindow.g.cs
+D:\Downloads\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\Window1.g.cs
+D:\Downloads\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\Window2.g.cs
+D:\Downloads\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\App.g.cs
+D:\Downloads\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\HouseBuilderWindow_MarkupCompile.cache
+D:\Downloads\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\HouseBuilderWindow_MarkupCompile.lref
+D:\Downloads\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\MainWindow.baml
+D:\Downloads\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\Window1.baml
+D:\Downloads\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\Window2.baml
+D:\Downloads\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\HouseBuilderWindow.g.resources
+D:\Downloads\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\HouseBuilderWindow.GeneratedMSBuildEditorConfig.editorconfig
+D:\Downloads\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\HouseBuilderWindow.AssemblyInfoInputs.cache
+D:\Downloads\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\HouseBuilderWindow.AssemblyInfo.cs
+D:\Downloads\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\HouseBuilderWindow.csproj.CoreCompileInputs.cache
+D:\Downloads\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\HouseBuilderWindow.csproj.CopyComplete
+D:\Downloads\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\HouseBuilderWindow.dll
+D:\Downloads\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\refint\HouseBuilderWindow.dll
+D:\Downloads\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\HouseBuilderWindow.pdb
+D:\Downloads\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\HouseBuilderWindow.genruntimeconfig.cache
+D:\Downloads\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\ref\HouseBuilderWindow.dll
+U:\ClassLibrary1\HouseBuilderWindow\bin\Debug\net6.0-windows\HouseBuilderWindow.exe
+U:\ClassLibrary1\HouseBuilderWindow\bin\Debug\net6.0-windows\HouseBuilderWindow.deps.json
+U:\ClassLibrary1\HouseBuilderWindow\bin\Debug\net6.0-windows\HouseBuilderWindow.runtimeconfig.json
+U:\ClassLibrary1\HouseBuilderWindow\bin\Debug\net6.0-windows\HouseBuilderWindow.dll
+U:\ClassLibrary1\HouseBuilderWindow\bin\Debug\net6.0-windows\HouseBuilderWindow.pdb
+U:\ClassLibrary1\HouseBuilderWindow\bin\Debug\net6.0-windows\HouseBuilder.dll
+U:\ClassLibrary1\HouseBuilderWindow\bin\Debug\net6.0-windows\HouseBuilder.pdb
+U:\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\HouseBuilderWindow.csproj.AssemblyReference.cache
+U:\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\MainWindow.g.cs
+U:\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\Window1.g.cs
+U:\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\Window2.g.cs
+U:\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\App.g.cs
+U:\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\HouseBuilderWindow_MarkupCompile.cache
+U:\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\HouseBuilderWindow_MarkupCompile.lref
+U:\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\MainWindow.baml
+U:\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\Window1.baml
+U:\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\Window2.baml
+U:\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\HouseBuilderWindow.g.resources
+U:\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\HouseBuilderWindow.GeneratedMSBuildEditorConfig.editorconfig
+U:\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\HouseBuilderWindow.AssemblyInfoInputs.cache
+U:\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\HouseBuilderWindow.AssemblyInfo.cs
+U:\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\HouseBuilderWindow.csproj.CoreCompileInputs.cache
+U:\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\HouseBuilderWindow.csproj.CopyComplete
+U:\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\HouseBuilderWindow.dll
+U:\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\refint\HouseBuilderWindow.dll
+U:\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\HouseBuilderWindow.pdb
+U:\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\HouseBuilderWindow.genruntimeconfig.cache
+U:\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\ref\HouseBuilderWindow.dll
+C:\Users\Sorry\OneDrive\Рабочий стол\ClassLibrary1\HouseBuilderWindow\bin\Debug\net6.0-windows\HouseBuilderWindow.exe
+C:\Users\Sorry\OneDrive\Рабочий стол\ClassLibrary1\HouseBuilderWindow\bin\Debug\net6.0-windows\HouseBuilderWindow.deps.json
+C:\Users\Sorry\OneDrive\Рабочий стол\ClassLibrary1\HouseBuilderWindow\bin\Debug\net6.0-windows\HouseBuilderWindow.runtimeconfig.json
+C:\Users\Sorry\OneDrive\Рабочий стол\ClassLibrary1\HouseBuilderWindow\bin\Debug\net6.0-windows\HouseBuilderWindow.dll
+C:\Users\Sorry\OneDrive\Рабочий стол\ClassLibrary1\HouseBuilderWindow\bin\Debug\net6.0-windows\HouseBuilderWindow.pdb
+C:\Users\Sorry\OneDrive\Рабочий стол\ClassLibrary1\HouseBuilderWindow\bin\Debug\net6.0-windows\HouseBuilder.dll
+C:\Users\Sorry\OneDrive\Рабочий стол\ClassLibrary1\HouseBuilderWindow\bin\Debug\net6.0-windows\HouseBuilder.pdb
+C:\Users\Sorry\OneDrive\Рабочий стол\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\HouseBuilderWindow.csproj.AssemblyReference.cache
+C:\Users\Sorry\OneDrive\Рабочий стол\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\Sorry\OneDrive\Рабочий стол\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\Window1.g.cs
+C:\Users\Sorry\OneDrive\Рабочий стол\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\Window2.g.cs
+C:\Users\Sorry\OneDrive\Рабочий стол\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Sorry\OneDrive\Рабочий стол\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\HouseBuilderWindow_MarkupCompile.cache
+C:\Users\Sorry\OneDrive\Рабочий стол\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\HouseBuilderWindow_MarkupCompile.lref
+C:\Users\Sorry\OneDrive\Рабочий стол\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\Sorry\OneDrive\Рабочий стол\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\Window1.baml
+C:\Users\Sorry\OneDrive\Рабочий стол\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\Window2.baml
+C:\Users\Sorry\OneDrive\Рабочий стол\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\HouseBuilderWindow.g.resources
+C:\Users\Sorry\OneDrive\Рабочий стол\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\HouseBuilderWindow.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sorry\OneDrive\Рабочий стол\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\HouseBuilderWindow.AssemblyInfoInputs.cache
+C:\Users\Sorry\OneDrive\Рабочий стол\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\HouseBuilderWindow.AssemblyInfo.cs
+C:\Users\Sorry\OneDrive\Рабочий стол\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\HouseBuilderWindow.csproj.CoreCompileInputs.cache
+C:\Users\Sorry\OneDrive\Рабочий стол\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\HouseBuilderWindow.csproj.CopyComplete
+C:\Users\Sorry\OneDrive\Рабочий стол\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\HouseBuilderWindow.dll
+C:\Users\Sorry\OneDrive\Рабочий стол\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\refint\HouseBuilderWindow.dll
+C:\Users\Sorry\OneDrive\Рабочий стол\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\HouseBuilderWindow.pdb
+C:\Users\Sorry\OneDrive\Рабочий стол\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\HouseBuilderWindow.genruntimeconfig.cache
+C:\Users\Sorry\OneDrive\Рабочий стол\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\ref\HouseBuilderWindow.dll
+E:\trpo\ClassLibrary1\HouseBuilderWindow\bin\Debug\net6.0-windows\HouseBuilderWindow.exe
+E:\trpo\ClassLibrary1\HouseBuilderWindow\bin\Debug\net6.0-windows\HouseBuilderWindow.deps.json
+E:\trpo\ClassLibrary1\HouseBuilderWindow\bin\Debug\net6.0-windows\HouseBuilderWindow.runtimeconfig.json
+E:\trpo\ClassLibrary1\HouseBuilderWindow\bin\Debug\net6.0-windows\HouseBuilderWindow.dll
+E:\trpo\ClassLibrary1\HouseBuilderWindow\bin\Debug\net6.0-windows\HouseBuilderWindow.pdb
+E:\trpo\ClassLibrary1\HouseBuilderWindow\bin\Debug\net6.0-windows\HouseBuilder.dll
+E:\trpo\ClassLibrary1\HouseBuilderWindow\bin\Debug\net6.0-windows\HouseBuilder.pdb
+E:\trpo\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\HouseBuilderWindow.csproj.AssemblyReference.cache
+E:\trpo\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\MainWindow.g.cs
+E:\trpo\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\Window1.g.cs
+E:\trpo\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\Window2.g.cs
+E:\trpo\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\App.g.cs
+E:\trpo\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\HouseBuilderWindow_MarkupCompile.cache
+E:\trpo\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\HouseBuilderWindow_MarkupCompile.lref
+E:\trpo\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\MainWindow.baml
+E:\trpo\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\Window1.baml
+E:\trpo\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\Window2.baml
+E:\trpo\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\HouseBuilderWindow.g.resources
+E:\trpo\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\HouseBuilderWindow.GeneratedMSBuildEditorConfig.editorconfig
+E:\trpo\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\HouseBuilderWindow.AssemblyInfoInputs.cache
+E:\trpo\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\HouseBuilderWindow.AssemblyInfo.cs
+E:\trpo\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\HouseBuilderWindow.csproj.CoreCompileInputs.cache
+E:\trpo\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\HouseBuilderWindow.csproj.CopyComplete
+E:\trpo\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\HouseBuilderWindow.dll
+E:\trpo\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\refint\HouseBuilderWindow.dll
+E:\trpo\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\HouseBuilderWindow.pdb
+E:\trpo\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\HouseBuilderWindow.genruntimeconfig.cache
+E:\trpo\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\ref\HouseBuilderWindow.dll

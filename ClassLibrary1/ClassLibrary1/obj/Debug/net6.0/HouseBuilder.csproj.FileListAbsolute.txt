@@ -1,0 +1,60 @@
+C:\Users\yuako\source\repos\ClassLibrary1\ClassLibrary1\bin\Debug\net6.0\HouseBuilder.deps.json
+C:\Users\yuako\source\repos\ClassLibrary1\ClassLibrary1\bin\Debug\net6.0\HouseBuilder.dll
+C:\Users\yuako\source\repos\ClassLibrary1\ClassLibrary1\bin\Debug\net6.0\HouseBuilder.pdb
+C:\Users\yuako\source\repos\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\HouseBuilder.csproj.AssemblyReference.cache
+C:\Users\yuako\source\repos\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\HouseBuilder.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yuako\source\repos\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\HouseBuilder.AssemblyInfoInputs.cache
+C:\Users\yuako\source\repos\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\HouseBuilder.AssemblyInfo.cs
+C:\Users\yuako\source\repos\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\HouseBuilder.csproj.CoreCompileInputs.cache
+C:\Users\yuako\source\repos\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\HouseBuilder.dll
+C:\Users\yuako\source\repos\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\refint\HouseBuilder.dll
+C:\Users\yuako\source\repos\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\HouseBuilder.pdb
+C:\Users\yuako\source\repos\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\ref\HouseBuilder.dll
+C:\Users\Sorry\OneDrive\Рабочий стол\ClassLibrary1\ClassLibrary1\bin\Debug\net6.0\HouseBuilder.deps.json
+C:\Users\Sorry\OneDrive\Рабочий стол\ClassLibrary1\ClassLibrary1\bin\Debug\net6.0\HouseBuilder.dll
+C:\Users\Sorry\OneDrive\Рабочий стол\ClassLibrary1\ClassLibrary1\bin\Debug\net6.0\HouseBuilder.pdb
+C:\Users\Sorry\OneDrive\Рабочий стол\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\HouseBuilder.csproj.AssemblyReference.cache
+C:\Users\Sorry\OneDrive\Рабочий стол\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\HouseBuilder.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sorry\OneDrive\Рабочий стол\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\HouseBuilder.AssemblyInfoInputs.cache
+C:\Users\Sorry\OneDrive\Рабочий стол\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\HouseBuilder.AssemblyInfo.cs
+C:\Users\Sorry\OneDrive\Рабочий стол\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\HouseBuilder.csproj.CoreCompileInputs.cache
+C:\Users\Sorry\OneDrive\Рабочий стол\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\HouseBuilder.dll
+C:\Users\Sorry\OneDrive\Рабочий стол\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\refint\HouseBuilder.dll
+C:\Users\Sorry\OneDrive\Рабочий стол\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\HouseBuilder.pdb
+C:\Users\Sorry\OneDrive\Рабочий стол\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\ref\HouseBuilder.dll
+D:\Downloads\ClassLibrary1\ClassLibrary1\bin\Debug\net6.0\HouseBuilder.deps.json
+D:\Downloads\ClassLibrary1\ClassLibrary1\bin\Debug\net6.0\HouseBuilder.dll
+D:\Downloads\ClassLibrary1\ClassLibrary1\bin\Debug\net6.0\HouseBuilder.pdb
+D:\Downloads\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\HouseBuilder.csproj.AssemblyReference.cache
+D:\Downloads\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\HouseBuilder.GeneratedMSBuildEditorConfig.editorconfig
+D:\Downloads\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\HouseBuilder.AssemblyInfoInputs.cache
+D:\Downloads\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\HouseBuilder.AssemblyInfo.cs
+D:\Downloads\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\HouseBuilder.csproj.CoreCompileInputs.cache
+D:\Downloads\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\HouseBuilder.dll
+D:\Downloads\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\refint\HouseBuilder.dll
+D:\Downloads\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\HouseBuilder.pdb
+D:\Downloads\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\ref\HouseBuilder.dll
+U:\ClassLibrary1\ClassLibrary1\bin\Debug\net6.0\HouseBuilder.deps.json
+U:\ClassLibrary1\ClassLibrary1\bin\Debug\net6.0\HouseBuilder.dll
+U:\ClassLibrary1\ClassLibrary1\bin\Debug\net6.0\HouseBuilder.pdb
+U:\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\HouseBuilder.csproj.AssemblyReference.cache
+U:\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\HouseBuilder.GeneratedMSBuildEditorConfig.editorconfig
+U:\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\HouseBuilder.AssemblyInfoInputs.cache
+U:\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\HouseBuilder.AssemblyInfo.cs
+U:\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\HouseBuilder.csproj.CoreCompileInputs.cache
+U:\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\HouseBuilder.dll
+U:\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\refint\HouseBuilder.dll
+U:\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\HouseBuilder.pdb
+U:\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\ref\HouseBuilder.dll
+E:\trpo\ClassLibrary1\ClassLibrary1\bin\Debug\net6.0\HouseBuilder.deps.json
+E:\trpo\ClassLibrary1\ClassLibrary1\bin\Debug\net6.0\HouseBuilder.dll
+E:\trpo\ClassLibrary1\ClassLibrary1\bin\Debug\net6.0\HouseBuilder.pdb
+E:\trpo\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\HouseBuilder.csproj.AssemblyReference.cache
+E:\trpo\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\HouseBuilder.GeneratedMSBuildEditorConfig.editorconfig
+E:\trpo\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\HouseBuilder.AssemblyInfoInputs.cache
+E:\trpo\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\HouseBuilder.AssemblyInfo.cs
+E:\trpo\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\HouseBuilder.csproj.CoreCompileInputs.cache
+E:\trpo\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\HouseBuilder.dll
+E:\trpo\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\refint\HouseBuilder.dll
+E:\trpo\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\HouseBuilder.pdb
+E:\trpo\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\ref\HouseBuilder.dll

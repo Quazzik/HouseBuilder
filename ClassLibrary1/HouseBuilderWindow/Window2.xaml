@@ -1,0 +1,58 @@
+﻿<Window x:Class="HouseBuilderWindow.Window2" Background="Black"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HouseBuilderWindow"
+        mc:Ignorable="d"
+        Title="Window2" Height="452" Width="567"
+        Loaded="Window_Loaded">
+    <Grid>
+        <StackPanel Height="NaN" Margin="0,0,0,135">
+            <Label Content="Рассчеты в рублях:" FontSize="14" HorizontalAlignment="Left" Height="41" Width="166" Foreground="White"/>
+            <StackPanel Orientation="Horizontal">
+                <Label Content="общая площадь дома:" Foreground="Wheat"/>
+                <Label x:Name="Label_CalculateTotalArea" Foreground="Aqua" Content="0.222"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label Content="общая стоимость строительных материалов" Foreground="Wheat"/>
+                <Label x:Name="Label_CalculateMaterialCost"  Foreground="Aqua" Content="0.222"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label Content="стоимость работы" Foreground="Wheat"/>
+                <Label x:Name="Label_CalculateLaborCost" Foreground="Aqua" Content="0.222"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label Content="стоимость всех разрешений" Foreground="Wheat"/>
+                <Label x:Name="Label_CalculatePermitCost" Foreground="Aqua" Content="0.222"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label Content="общая стоимость отделочных материалов" Foreground="Wheat"/>
+                <Label x:Name="Label_CalculateFinishingCost" Foreground="Aqua" Content="0.222"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label Content="общая стоимость доп. опций" Foreground="Wheat"/>
+                <Label x:Name="Label_CalculateOptionCost" Foreground="Aqua" Content="0.222"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label Content="общая стоимость строительстваы" Foreground="Wheat"/>
+                <Label x:Name="Label_CalculateTotalCost" Foreground="Aqua" Content="0.222"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label Content="ежемесячный платеж по кредиту" Foreground="Wheat"/>
+                <Label x:Name="Label_CalculateMonthlyPayment" Foreground="Aqua" Content="0.222"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label Content="расчёт необходимых накоплений для оплаты строительства + резервный фонд" Foreground="Wheat"/>
+                <Label x:Name="Label_CalculateTotalSavingsNeeded" Foreground="Aqua" Content="0.222"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label Content="сколько нужно откладывать каждый месяц чтобы скопить сумму к началу строительства" Foreground="Wheat"/>
+                <Label x:Name="Label_CalculateMonthlySavings" Foreground="Aqua" Content="0.222"/>
+            </StackPanel>
+        </StackPanel>
+        <Border BorderBrush="Black" BorderThickness="1" Height="NaN" Margin="0,0,0,89"/>
+        <Border BorderBrush="Black" BorderThickness="1" Height="NaN" Margin="0,0,0,89"/>
+        <Button Content="Выход" FontSize="20" HorizontalAlignment="Left" Margin="476,371,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+    </Grid>
+</Window>
