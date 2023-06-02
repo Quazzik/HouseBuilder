@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-E:\trpo\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\
+C:\Users\yuako\Documents\GitHub\TeamVTRPO_NMT-213901_nazarov_korotkov\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\
 HouseBuilderWindow
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-E:\trpo\ClassLibrary1\HouseBuilderWindow\App.xaml
+C:\Users\yuako\Documents\GitHub\TeamVTRPO_NMT-213901_nazarov_korotkov\ClassLibrary1\HouseBuilderWindow\App.xaml
 31130175450
 
 71288228647
-195371215059
+195304673495
 MainWindow.xaml;Window1.xaml;Window2.xaml;
 
-True
+False
 

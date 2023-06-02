@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\trpo\\ClassLibrary1\\ConsoleApp1\\ConsoleApp1.csproj": {}
+    "C:\\Users\\yuako\\Documents\\GitHub\\TeamVTRPO_NMT-213901_nazarov_korotkov\\ClassLibrary1\\ConsoleApp1\\ConsoleApp1.csproj": {}
   },
   "projects": {
-    "E:\\trpo\\ClassLibrary1\\ClassLibrary1\\HouseBuilder.csproj": {
+    "C:\\Users\\yuako\\Documents\\GitHub\\TeamVTRPO_NMT-213901_nazarov_korotkov\\ClassLibrary1\\ClassLibrary1\\HouseBuilder.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\trpo\\ClassLibrary1\\ClassLibrary1\\HouseBuilder.csproj",
+        "projectUniqueName": "C:\\Users\\yuako\\Documents\\GitHub\\TeamVTRPO_NMT-213901_nazarov_korotkov\\ClassLibrary1\\ClassLibrary1\\HouseBuilder.csproj",
         "projectName": "HouseBuilder",
-        "projectPath": "E:\\trpo\\ClassLibrary1\\ClassLibrary1\\HouseBuilder.csproj",
-        "packagesPath": "C:\\Users\\Sorry\\.nuget\\packages\\",
-        "outputPath": "E:\\trpo\\ClassLibrary1\\ClassLibrary1\\obj\\",
+        "projectPath": "C:\\Users\\yuako\\Documents\\GitHub\\TeamVTRPO_NMT-213901_nazarov_korotkov\\ClassLibrary1\\ClassLibrary1\\HouseBuilder.csproj",
+        "packagesPath": "C:\\Users\\yuako\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yuako\\Documents\\GitHub\\TeamVTRPO_NMT-213901_nazarov_korotkov\\ClassLibrary1\\ClassLibrary1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\program files (x86)\\microsoft visual studio\\shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Sorry\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\yuako\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -60,24 +60,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\trpo\\ClassLibrary1\\ConsoleApp1\\ConsoleApp1.csproj": {
+    "C:\\Users\\yuako\\Documents\\GitHub\\TeamVTRPO_NMT-213901_nazarov_korotkov\\ClassLibrary1\\ConsoleApp1\\ConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\trpo\\ClassLibrary1\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectUniqueName": "C:\\Users\\yuako\\Documents\\GitHub\\TeamVTRPO_NMT-213901_nazarov_korotkov\\ClassLibrary1\\ConsoleApp1\\ConsoleApp1.csproj",
         "projectName": "ConsoleApp1",
-        "projectPath": "E:\\trpo\\ClassLibrary1\\ConsoleApp1\\ConsoleApp1.csproj",
-        "packagesPath": "C:\\Users\\Sorry\\.nuget\\packages\\",
-        "outputPath": "E:\\trpo\\ClassLibrary1\\ConsoleApp1\\obj\\",
+        "projectPath": "C:\\Users\\yuako\\Documents\\GitHub\\TeamVTRPO_NMT-213901_nazarov_korotkov\\ClassLibrary1\\ConsoleApp1\\ConsoleApp1.csproj",
+        "packagesPath": "C:\\Users\\yuako\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\yuako\\Documents\\GitHub\\TeamVTRPO_NMT-213901_nazarov_korotkov\\ClassLibrary1\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\program files (x86)\\microsoft visual studio\\shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Sorry\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\yuako\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -93,8 +93,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\trpo\\ClassLibrary1\\ClassLibrary1\\HouseBuilder.csproj": {
-                "projectPath": "E:\\trpo\\ClassLibrary1\\ClassLibrary1\\HouseBuilder.csproj"
+              "C:\\Users\\yuako\\Documents\\GitHub\\TeamVTRPO_NMT-213901_nazarov_korotkov\\ClassLibrary1\\ClassLibrary1\\HouseBuilder.csproj": {
+                "projectPath": "C:\\Users\\yuako\\Documents\\GitHub\\TeamVTRPO_NMT-213901_nazarov_korotkov\\ClassLibrary1\\ClassLibrary1\\HouseBuilder.csproj"
               }
             }
           }
@@ -124,7 +124,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
