@@ -1,4 +1,6 @@
+using Newtonsoft.Json.Linq;
 using System.Diagnostics.Metrics;
+using System.Reflection.Metadata;
 
 namespace TestProject1
 {
@@ -55,6 +57,13 @@ namespace TestProject1
             double actual = TotalGood.CalculateTotalArea();
             Assert.AreEqual(expected, actual);
         }
+
+        /*
+        This solution completely lacks the meaning of the tests given below
+        The problem is that constant variables in a real project would getthe
+        value from a conditional database/directory, which currently do not exist.
+        */
+
         [Test]
         public void MaterialCost()
         {
