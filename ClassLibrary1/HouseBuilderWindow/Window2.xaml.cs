@@ -3,17 +3,8 @@ using FastReport.Export.Image;
 using FastReport.Export.PdfSimple;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.IO;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 
 
 namespace HouseBuilderWindow
@@ -66,19 +57,24 @@ namespace HouseBuilderWindow
             reportData.Add(new Data { Name = "расчёт необходимых накоплений для оплаты строительства + резервный фонд", Value = Convert.ToInt32(Label_CalculateTotalSavingsNeeded.Content) });
             reportData.Add(new Data { Name = "сколько нужно откладывать каждый месяц чтобы скопить сумму к началу строительства", Value = Convert.ToInt32(Label_CalculateMonthlySavings.Content) });
             Report report = new();
-            report.Load("Table.frx");
+            report.Load($"{AppDomain.CurrentDomain.BaseDirectory}/Table.frx");
             report.RegisterData(reportData, "Data");
             report.Prepare();
 
-            report.SavePrepared("Prepared_Table.fpx");
+            string piecePath = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
+            string fullPath = Path.GetFullPath(piecePath);
+
+            if (!Directory.Exists($"{fullPath}/reportFolder"))
+                Directory.CreateDirectory($"{fullPath}/reportFolder");
+            report.SavePrepared($"{fullPath}/reportFolder/Prepared_Table.fpx");
 
             ImageExport image = new();
             image.ImageFormat = ImageExportFormat.Jpeg;
-            report.Export(image, "report.jpg");
+            report.Export(image, $"{fullPath}/reportFolder/report-{DateTime.Now.ToString("d")}.jpg");
 
             PDFSimpleExport pdfExport = new();
 
-            pdfExport.Export(report, "report.pdf");
+            pdfExport.Export(report, $"{fullPath}/reportFolder/report-{DateTime.Now.ToString("d")}.pdf");
 
             report.Dispose();
         }
