@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", "ConsoleApp1\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProject1", "TestProject1\TestProject1.csproj", "{0F47FA34-0AF1-40FA-A84B-721C64FA7EC9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HouseBuilderWindow", "HouseBuilderWindow\HouseBuilderWindow.csproj", "{AF64C64F-A53A-4D5E-B181-AD860438F48C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HouseBuilderWindow", "HouseBuilderWindow\HouseBuilderWindow.csproj", "{AF64C64F-A53A-4D5E-B181-AD860438F48C}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup1", "Setup1\Setup1.vdproj", "{C34C75A2-4E86-40FC-8CB7-7204285D0755}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,8 @@ Global
 		{AF64C64F-A53A-4D5E-B181-AD860438F48C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF64C64F-A53A-4D5E-B181-AD860438F48C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF64C64F-A53A-4D5E-B181-AD860438F48C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C34C75A2-4E86-40FC-8CB7-7204285D0755}.Debug|Any CPU.ActiveCfg = Debug
+		{C34C75A2-4E86-40FC-8CB7-7204285D0755}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
