@@ -70,3 +70,15 @@ C:\Users\yuako\Documents\GitHub\TeamVTRPO_NMT-213901_nazarov_korotkov\ClassLibra
 C:\Users\yuako\Documents\GitHub\TeamVTRPO_NMT-213901_nazarov_korotkov\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\refint\HouseBuilder.dll
 C:\Users\yuako\Documents\GitHub\TeamVTRPO_NMT-213901_nazarov_korotkov\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\HouseBuilder.pdb
 C:\Users\yuako\Documents\GitHub\TeamVTRPO_NMT-213901_nazarov_korotkov\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\ref\HouseBuilder.dll
+C:\Users\Lenovo\Downloads\HouseBuilder-main\ClassLibrary1\ClassLibrary1\bin\Debug\net6.0\HouseBuilder.deps.json
+C:\Users\Lenovo\Downloads\HouseBuilder-main\ClassLibrary1\ClassLibrary1\bin\Debug\net6.0\HouseBuilder.dll
+C:\Users\Lenovo\Downloads\HouseBuilder-main\ClassLibrary1\ClassLibrary1\bin\Debug\net6.0\HouseBuilder.pdb
+C:\Users\Lenovo\Downloads\HouseBuilder-main\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\HouseBuilder.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Downloads\HouseBuilder-main\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\HouseBuilder.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lenovo\Downloads\HouseBuilder-main\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\HouseBuilder.AssemblyInfoInputs.cache
+C:\Users\Lenovo\Downloads\HouseBuilder-main\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\HouseBuilder.AssemblyInfo.cs
+C:\Users\Lenovo\Downloads\HouseBuilder-main\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\HouseBuilder.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Downloads\HouseBuilder-main\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\HouseBuilder.dll
+C:\Users\Lenovo\Downloads\HouseBuilder-main\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\refint\HouseBuilder.dll
+C:\Users\Lenovo\Downloads\HouseBuilder-main\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\HouseBuilder.pdb
+C:\Users\Lenovo\Downloads\HouseBuilder-main\ClassLibrary1\ClassLibrary1\obj\Debug\net6.0\ref\HouseBuilder.dll

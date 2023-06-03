@@ -11,6 +11,6 @@
             <Label Content="Введите количество этажей для строющегося здания:" FontSize="16" HorizontalAlignment="Center" Height="41"  VerticalAlignment="Top" Width="425"/>
             <TextBox x:Name="TextBox_CountOfFloor" Width="100" Height="30" HorizontalAlignment="Left"/>
         </StackPanel>
-        <Button x:Name="Button_CountOfFloor" Content="Принять" HorizontalAlignment="Left" Margin="698,304,0,0" VerticalAlignment="Top" Height="36" Width="92" Click="Button_CountOfFloor_Click"/>
+        <Button x:Name="Button_CountOfFloor" Content="Принять" HorizontalAlignment="Right" Margin="698,304,0,0" VerticalAlignment="Top" Height="36" Width="92" Click="Button_CountOfFloor_Click"/>
     </Grid>
 </Window>
