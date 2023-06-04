@@ -10,6 +10,9 @@
   <ItemGroup>
     <PackageReference Include="FastReport.OpenSource" Version="2023.2.16" />
     <PackageReference Include="FastReport.OpenSource.Export.PdfSimple" Version="2023.2.16" />
+    <PackageReference Include="ReactiveUI" Version="18.4.44" />
+    <PackageReference Include="ReactiveUI.Fody" Version="18.4.44" />
+    <PackageReference Include="ReactiveUI.WPF" Version="18.4.44" />
   </ItemGroup>
 
   <ItemGroup>

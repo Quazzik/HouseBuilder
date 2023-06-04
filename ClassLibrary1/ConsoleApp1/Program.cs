@@ -8,10 +8,10 @@
         double result;
         Console.WriteLine("Enter the number of floors");
         success = int.TryParse(Console.ReadLine(), out int intresult);
-        if (success) { builder.CountOfFloor = intresult; } else { Console.WriteLine("Parse exception, default one-storied house used"); builder.CountOfFloor = 1; }
+        if (success) { builder.CountOfFloors = intresult; } else { Console.WriteLine("Parse exception, default one-storied house used"); builder.CountOfFloors = 1; }
 
         //считывание от пользователя площади этажей и количества доп.функций
-        switch (builder.CountOfFloor)
+        switch (builder.CountOfFloors)
         {
             case 1:
                 {

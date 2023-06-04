@@ -1,12 +1,9 @@
-﻿public class Builder
+﻿namespace Library;
+
+public class Builder
 {
-    public double FirstFloorArea ;                    //площадь первого этажа
-    public double SecondFloorArea ;                   //площадь второго этажа
-    public double ThirdFloorArea ;                    //площадь третьего этажа
-    public double FourthFloorArea ;                   //площадь четвертого этажа
-    public double FifthFloorArea ;                    //площадь пятого этажа
-    public double CountOfFloor;                       //Число этажей
-    public int NumberOfOptions;                       //количество необходимых доп. опций
+    public List<double> FloorsArea { get; init; }     //площадь этажей
+    public uint NumberOfOptions { get; set; }          //количество необходимых доп. опций
     const double unitPrice = 50000;                   //цена за *единицу* здания
     const int quantity = 2;                           //количество таких зданий которые необходимо построить
     const double hourlyRate = 50;                     //почасовая ставка за работу строителей
@@ -18,14 +15,20 @@
     const double interestRate = 0.05;                 //процентная стака по кредиту
     const int numberOfMonthsInLoan = 120;             //количество месяцев на которые берется кредит
     const int numberOfMonthsUntilConstruction = 24;   //через сколько месяцев начнется строительство
-    
+
+    public Builder(List<double> floorsArea, uint numberOfOptions)
+    {
+        FloorsArea = floorsArea;
+        NumberOfOptions = numberOfOptions;
+    }
+
     public double CalculateTotalArea() //общая площадь дома
     {
-        if (FirstFloorArea <= 0 || SecondFloorArea < 0 || ThirdFloorArea < 0 || FourthFloorArea < 0 || FifthFloorArea < 0)
+        if (FloorsArea.All(f => f < 0))
         {
-            throw new ArgumentException("Values cannot be negative");
+            throw new ArgumentException("Floors area cannot be negative");
         }
-        return FirstFloorArea + SecondFloorArea + ThirdFloorArea + FourthFloorArea + FifthFloorArea;
+        return FloorsArea.Sum();
     }
 
     public double CalculateMaterialCost() //общая стоимость строительных материалов

@@ -4,13 +4,86 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:HouseBuilderWindow"
+        xmlns:vm="clr-namespace:HouseBuilderWindow.ViewModels" 
+        xmlns:conv="clr-namespace:HouseBuilderWindow.Converters"
         mc:Ignorable="d"
-        Title="MainWindow" Height="426" Width="800">
-    <Grid Height="NaN" Margin="0,0,0,-6">
-        <StackPanel Height="NaN" Margin="0,0,0,135">
-            <Label Content="Введите количество этажей для строющегося здания:" FontSize="16" HorizontalAlignment="Center" Height="41"  VerticalAlignment="Top" Width="425"/>
-            <TextBox x:Name="TextBox_CountOfFloor" Width="100" Height="30" HorizontalAlignment="Left"/>
+        Title="MainWindow" Height="426" Width="714">
+    <Window.DataContext>
+        <vm:BuilderViewModel/>
+    </Window.DataContext>
+    <Window.Resources>
+        <conv:UintToStringConverter x:Key="uintToString"/>
+        <conv:DoubleToStringConverter x:Key="doubleToString"/>
+    </Window.Resources>
+    <StackPanel Orientation="Vertical">
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0 25 0 0">
+            <Label Content="Введите количество этажей для строющегося здания: " FontSize="16" Height="35" />
+            <TextBox x:Name="TextBox_CountOfFloor" Width="100" Height="30" Text="{Binding FloorsCount, Mode=OneWayToSource, Converter={StaticResource uintToString}, UpdateSourceTrigger=PropertyChanged}"/>
         </StackPanel>
-        <Button x:Name="Button_CountOfFloor" Content="Принять" HorizontalAlignment="Right" Margin="698,304,0,0" VerticalAlignment="Top" Height="36" Width="92" Click="Button_CountOfFloor_Click"/>
-    </Grid>
+        <StackPanel Orientation="Horizontal">
+            <StackPanel Orientation="Vertical" Width="300">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="Количество доп. опций: "/>
+                    <TextBox Text="{Binding NumberOfOptions, Mode=OneWayToSource, Converter={StaticResource uintToString}}" Width="25"/>
+                </StackPanel>
+                <ListView ItemsSource="{Binding FloorsGenerator}" >
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal" Height="30">
+                                <Label Content="{Binding Label, Mode=OneWay, UpdateSourceTrigger=PropertyChanged}" Width="200" Height="25" VerticalAlignment="Center"/>
+                                <TextBox Width="50" Text="{Binding Area, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged, Converter={StaticResource doubleToString}}" Height="25" VerticalAlignment="Center"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackPanel>
+            <StackPanel Orientation="Vertical">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="Общая площадь дома:" Width="325"/>
+                    <Label Content="{Binding TotalArea, Mode=OneWay, Converter={StaticResource doubleToString}}"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="Общая стоимость строительных материалов:" Width="325"/>
+                    <Label Content="{Binding MaterialCost, Mode=OneWay, Converter={StaticResource doubleToString}}"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="Стоимость работы:" Width="325"/>
+                    <Label Content="{Binding LaborCost, Mode=OneWay, Converter={StaticResource doubleToString}}"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="Стоимость всех разрешений:" Width="325"/>
+                    <Label Content="{Binding PermitCost, Mode=OneWay, Converter={StaticResource doubleToString}}"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="Общая стоимость отделочных материалов:" Width="325"/>
+                    <Label Content="{Binding FinishingCost, Mode=OneWay, Converter={StaticResource doubleToString}}"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="Общая стоимость доп. опций:" Width="325"/>
+                    <Label Content="{Binding OptionCost, Mode=OneWay, Converter={StaticResource doubleToString}}"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="Общая стоимость строительства:" Width="325"/>
+                    <Label Content="{Binding TotalCost, Mode=OneWay, Converter={StaticResource doubleToString}}"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="ежемесячный платеж по кредиту:" Width="325"/>
+                    <Label Content="{Binding MonthlyPayment, Mode=OneWay, Converter={StaticResource doubleToString}}"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="Необходимое количество накоплений:" Width="325"/>
+                    <Label Content="{Binding TotalSavingsNeeded, Mode=OneWay, Converter={StaticResource doubleToString}}"/>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="Сумма отложения в месяц до начала строительства:" Width="325"/>
+                    <Label Content="{Binding MonthlySavings, Mode=OneWay, Converter={StaticResource doubleToString}}"/>
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="10">
+            <Button Height="20" Width="80" Content="Расчитать" Command="{Binding CountCommand}"/>
+            <Button Height="20" Width="130" Content="Сгенерировать отчет" Command="{Binding ReportCommand}" Margin="10 0 0 0"/>
+            <Button Height="20" Width="60" Content="Справка" Command="{Binding RefInfoCommand}" Margin="10 0 0 0"/>
+        </StackPanel>
+    </StackPanel>
 </Window>

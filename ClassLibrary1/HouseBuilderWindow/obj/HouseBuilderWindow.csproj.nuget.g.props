@@ -14,6 +14,7 @@
     <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)reactiveui.fody\18.4.44\build\ReactiveUI.Fody.props" Condition="Exists('$(NuGetPackageRoot)reactiveui.fody\18.4.44\build\ReactiveUI.Fody.props')" />
     <Import Project="$(NuGetPackageRoot)fastreport.opensource\2023.2.16\buildTransitive\FastReport.OpenSource.props" Condition="Exists('$(NuGetPackageRoot)fastreport.opensource\2023.2.16\buildTransitive\FastReport.OpenSource.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">

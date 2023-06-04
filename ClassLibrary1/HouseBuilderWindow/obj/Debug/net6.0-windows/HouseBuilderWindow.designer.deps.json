@@ -6,6 +6,17 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
+      "DynamicData/7.13.5": {
+        "dependencies": {
+          "System.Reactive": "5.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/DynamicData.dll": {
+            "assemblyVersion": "7.13.0.0",
+            "fileVersion": "7.13.5.53706"
+          }
+        }
+      },
       "FastReport.Compat/2023.1.8": {
         "dependencies": {
           "Microsoft.CodeAnalysis.CSharp": "3.3.1",
@@ -52,6 +63,7 @@
           }
         }
       },
+      "Fody/6.7.0": {},
       "Microsoft.CodeAnalysis.Analyzers/2.9.4": {},
       "Microsoft.CodeAnalysis.Common/3.3.1": {
         "dependencies": {
@@ -235,6 +247,49 @@
           }
         }
       },
+      "ReactiveUI/18.4.44": {
+        "dependencies": {
+          "DynamicData": "7.13.5",
+          "Splat": "14.6.8"
+        },
+        "runtime": {
+          "lib/net6.0/ReactiveUI.dll": {
+            "assemblyVersion": "18.4.0.0",
+            "fileVersion": "18.4.44.1605"
+          }
+        }
+      },
+      "ReactiveUI.Fody/18.4.44": {
+        "dependencies": {
+          "Fody": "6.7.0",
+          "ReactiveUI": "18.4.44"
+        },
+        "runtime": {
+          "lib/net6.0/ReactiveUI.Fody.Helpers.dll": {
+            "assemblyVersion": "18.4.0.0",
+            "fileVersion": "18.4.44.1605"
+          }
+        }
+      },
+      "ReactiveUI.WPF/18.4.44": {
+        "dependencies": {
+          "ReactiveUI": "18.4.44"
+        },
+        "runtime": {
+          "lib/net462/ReactiveUI.Wpf.dll": {
+            "assemblyVersion": "18.4.0.0",
+            "fileVersion": "18.4.44.1605"
+          }
+        }
+      },
+      "Splat/14.6.8": {
+        "runtime": {
+          "lib/net6.0/Splat.dll": {
+            "assemblyVersion": "14.6.0.0",
+            "fileVersion": "14.6.8.29002"
+          }
+        }
+      },
       "System.Collections.Immutable/1.5.0": {
         "runtime": {
           "lib/netstandard2.0/System.Collections.Immutable.dll": {
@@ -270,6 +325,14 @@
         }
       },
       "System.Memory/4.5.3": {},
+      "System.Reactive/5.0.0": {
+        "runtime": {
+          "lib/net5.0/System.Reactive.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.1"
+          }
+        }
+      },
       "System.Reflection.Metadata/1.6.0": {
         "runtime": {
           "lib/netstandard2.0/System.Reflection.Metadata.dll": {
@@ -400,6 +463,13 @@
     }
   },
   "libraries": {
+    "DynamicData/7.13.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jpu26ujgGrMSO68t8b6ClEL3tvZy6K7np8Iem30JkQaLMeOCLxLCZ2Uk/Eyq67k/rwEWrraQ3FB5SBEKJaE2iw==",
+      "path": "dynamicdata/7.13.5",
+      "hashPath": "dynamicdata.7.13.5.nupkg.sha512"
+    },
     "FastReport.Compat/2023.1.8": {
       "type": "package",
       "serviceable": true,
@@ -420,6 +490,13 @@
       "sha512": "sha512-1EbVFPR3pNjZ3C0Zi8q6W13J8/QrU9lv+CiwncAd4ivRw8PPtiaLCF/JtZQdfOJm0mhsaoqy97eu54ulfjY3HQ==",
       "path": "fastreport.opensource.export.pdfsimple/2023.2.16",
       "hashPath": "fastreport.opensource.export.pdfsimple.2023.2.16.nupkg.sha512"
+    },
+    "Fody/6.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-apsA8Hp9sAuOVmn9byPnCuqiQEjhAApqwNfEG+Gu0OyHUZfjHhLwvNQnAaONDdHWDXP/pBgpGXuscVwfEym8zQ==",
+      "path": "fody/6.7.0",
+      "hashPath": "fody.6.7.0.nupkg.sha512"
     },
     "Microsoft.CodeAnalysis.Analyzers/2.9.4": {
       "type": "package",
@@ -463,6 +540,34 @@
       "path": "microsoft.win32.systemevents/4.7.0",
       "hashPath": "microsoft.win32.systemevents.4.7.0.nupkg.sha512"
     },
+    "ReactiveUI/18.4.44": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DRtnK85MBdtwG+zjTluLWVnbUPzDOoHOFuIy6B4OAwvWNCkkRpf7FIHVwZz7cTjlG25eBeIJqWjgaejP6ejCHg==",
+      "path": "reactiveui/18.4.44",
+      "hashPath": "reactiveui.18.4.44.nupkg.sha512"
+    },
+    "ReactiveUI.Fody/18.4.44": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FmzTAmlzUoi2AK49FCiC7vfv92tWyf/ySIpY/Bm1iVQr7jEIHmN0KyvYt18QI4sdTMJi86GSTnTapZupiEPqIQ==",
+      "path": "reactiveui.fody/18.4.44",
+      "hashPath": "reactiveui.fody.18.4.44.nupkg.sha512"
+    },
+    "ReactiveUI.WPF/18.4.44": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CYgYTfk50rgsMlTH+MLx7nQBR512FudbkEHiUiH5DIXIdKwsszoQOgxLp/DD/k4cfGJK3aUuLmNZUYYUxMbSiQ==",
+      "path": "reactiveui.wpf/18.4.44",
+      "hashPath": "reactiveui.wpf.18.4.44.nupkg.sha512"
+    },
+    "Splat/14.6.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WdhGXUvsWPNPzBLc/LC1Q5jLOczupHDc+4Skl0JaTEuyoDjxxe/Dme8UjGTkCPYbhnVWEsEJprWqyWDY5RNB9A==",
+      "path": "splat/14.6.8",
+      "hashPath": "splat.14.6.8.nupkg.sha512"
+    },
     "System.Collections.Immutable/1.5.0": {
       "type": "package",
       "serviceable": true,
@@ -483,6 +588,13 @@
       "sha512": "sha512-3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA==",
       "path": "system.memory/4.5.3",
       "hashPath": "system.memory.4.5.3.nupkg.sha512"
+    },
+    "System.Reactive/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-erBZjkQHWL9jpasCE/0qKAryzVBJFxGHVBAvgRN1bzM0q2s1S4oYREEEL0Vb+1kA/6BKb5FjUZMp5VXmy+gzkQ==",
+      "path": "system.reactive/5.0.0",
+      "hashPath": "system.reactive.5.0.0.nupkg.sha512"
     },
     "System.Reflection.Metadata/1.6.0": {
       "type": "package",

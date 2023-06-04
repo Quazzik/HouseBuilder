@@ -116,6 +116,18 @@
             "FastReport.OpenSource.Export.PdfSimple": {
               "target": "Package",
               "version": "[2023.2.16, )"
+            },
+            "ReactiveUI": {
+              "target": "Package",
+              "version": "[18.4.44, )"
+            },
+            "ReactiveUI.Fody": {
+              "target": "Package",
+              "version": "[18.4.44, )"
+            },
+            "ReactiveUI.WPF": {
+              "target": "Package",
+              "version": "[18.4.44, )"
             }
           },
           "imports": [

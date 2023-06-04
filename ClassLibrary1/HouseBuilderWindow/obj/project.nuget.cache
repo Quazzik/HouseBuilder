@@ -1,21 +1,28 @@
 {
   "version": 2,
-  "dgSpecHash": "J9NcwqyQjvhWLFJuPDfzqIN0XjReZPpydya3Qkoo1FvVvcY5cEWT+yl4u4muaRFi3mAfcdZvuGRVne3tUXNP/A==",
+  "dgSpecHash": "7OyqlVsQn8+cta0sfOmESIp/eI299sxk6SsbxMH/kTFKcf06BxYHQVOjjdmJmLC7sz3L1PF5S0PaawM+J5R+qw==",
   "success": true,
   "projectFilePath": "C:\\Users\\yuako\\Documents\\GitHub\\TeamVTRPO_NMT-213901_nazarov_korotkov\\ClassLibrary1\\HouseBuilderWindow\\HouseBuilderWindow.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\yuako\\.nuget\\packages\\dynamicdata\\7.13.5\\dynamicdata.7.13.5.nupkg.sha512",
     "C:\\Users\\yuako\\.nuget\\packages\\fastreport.compat\\2023.1.8\\fastreport.compat.2023.1.8.nupkg.sha512",
     "C:\\Users\\yuako\\.nuget\\packages\\fastreport.opensource\\2023.2.16\\fastreport.opensource.2023.2.16.nupkg.sha512",
     "C:\\Users\\yuako\\.nuget\\packages\\fastreport.opensource.export.pdfsimple\\2023.2.16\\fastreport.opensource.export.pdfsimple.2023.2.16.nupkg.sha512",
+    "C:\\Users\\yuako\\.nuget\\packages\\fody\\6.7.0\\fody.6.7.0.nupkg.sha512",
     "C:\\Users\\yuako\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\2.9.4\\microsoft.codeanalysis.analyzers.2.9.4.nupkg.sha512",
     "C:\\Users\\yuako\\.nuget\\packages\\microsoft.codeanalysis.common\\3.3.1\\microsoft.codeanalysis.common.3.3.1.nupkg.sha512",
     "C:\\Users\\yuako\\.nuget\\packages\\microsoft.codeanalysis.csharp\\3.3.1\\microsoft.codeanalysis.csharp.3.3.1.nupkg.sha512",
     "C:\\Users\\yuako\\.nuget\\packages\\microsoft.codeanalysis.visualbasic\\3.3.1\\microsoft.codeanalysis.visualbasic.3.3.1.nupkg.sha512",
     "C:\\Users\\yuako\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\yuako\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\yuako\\.nuget\\packages\\reactiveui\\18.4.44\\reactiveui.18.4.44.nupkg.sha512",
+    "C:\\Users\\yuako\\.nuget\\packages\\reactiveui.fody\\18.4.44\\reactiveui.fody.18.4.44.nupkg.sha512",
+    "C:\\Users\\yuako\\.nuget\\packages\\reactiveui.wpf\\18.4.44\\reactiveui.wpf.18.4.44.nupkg.sha512",
+    "C:\\Users\\yuako\\.nuget\\packages\\splat\\14.6.8\\splat.14.6.8.nupkg.sha512",
     "C:\\Users\\yuako\\.nuget\\packages\\system.collections.immutable\\1.5.0\\system.collections.immutable.1.5.0.nupkg.sha512",
     "C:\\Users\\yuako\\.nuget\\packages\\system.drawing.common\\4.7.0\\system.drawing.common.4.7.0.nupkg.sha512",
     "C:\\Users\\yuako\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\yuako\\.nuget\\packages\\system.reactive\\5.0.0\\system.reactive.5.0.0.nupkg.sha512",
     "C:\\Users\\yuako\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512",
     "C:\\Users\\yuako\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
     "C:\\Users\\yuako\\.nuget\\packages\\system.security.accesscontrol\\4.5.0\\system.security.accesscontrol.4.5.0.nupkg.sha512",
@@ -26,5 +33,16 @@
     "C:\\Users\\yuako\\.nuget\\packages\\system.text.encoding.codepages\\4.7.0\\system.text.encoding.codepages.4.7.0.nupkg.sha512",
     "C:\\Users\\yuako\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.3\\system.threading.tasks.extensions.4.5.3.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"ReactiveUI.WPF 18.4.44\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\", а не целевой платформы проекта \"net6.0-windows7.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "ReactiveUI.WPF",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
 }

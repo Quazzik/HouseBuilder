@@ -119,14 +119,10 @@ C:\Users\yuako\Documents\GitHub\TeamVTRPO_NMT-213901_nazarov_korotkov\ClassLibra
 C:\Users\yuako\Documents\GitHub\TeamVTRPO_NMT-213901_nazarov_korotkov\ClassLibrary1\HouseBuilderWindow\bin\Debug\net6.0-windows\HouseBuilder.pdb
 C:\Users\yuako\Documents\GitHub\TeamVTRPO_NMT-213901_nazarov_korotkov\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\HouseBuilderWindow.csproj.AssemblyReference.cache
 C:\Users\yuako\Documents\GitHub\TeamVTRPO_NMT-213901_nazarov_korotkov\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\MainWindow.g.cs
-C:\Users\yuako\Documents\GitHub\TeamVTRPO_NMT-213901_nazarov_korotkov\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\Window1.g.cs
-C:\Users\yuako\Documents\GitHub\TeamVTRPO_NMT-213901_nazarov_korotkov\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\Window2.g.cs
 C:\Users\yuako\Documents\GitHub\TeamVTRPO_NMT-213901_nazarov_korotkov\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\App.g.cs
 C:\Users\yuako\Documents\GitHub\TeamVTRPO_NMT-213901_nazarov_korotkov\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\HouseBuilderWindow_MarkupCompile.cache
 C:\Users\yuako\Documents\GitHub\TeamVTRPO_NMT-213901_nazarov_korotkov\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\HouseBuilderWindow_MarkupCompile.lref
 C:\Users\yuako\Documents\GitHub\TeamVTRPO_NMT-213901_nazarov_korotkov\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\MainWindow.baml
-C:\Users\yuako\Documents\GitHub\TeamVTRPO_NMT-213901_nazarov_korotkov\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\Window1.baml
-C:\Users\yuako\Documents\GitHub\TeamVTRPO_NMT-213901_nazarov_korotkov\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\Window2.baml
 C:\Users\yuako\Documents\GitHub\TeamVTRPO_NMT-213901_nazarov_korotkov\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\HouseBuilderWindow.g.resources
 C:\Users\yuako\Documents\GitHub\TeamVTRPO_NMT-213901_nazarov_korotkov\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\HouseBuilderWindow.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\yuako\Documents\GitHub\TeamVTRPO_NMT-213901_nazarov_korotkov\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\HouseBuilderWindow.AssemblyInfoInputs.cache
@@ -258,3 +254,12 @@ C:\Users\yuako\Documents\GitHub\TeamVTRPO_NMT-213901_nazarov_korotkov\ClassLibra
 C:\Users\yuako\Documents\GitHub\TeamVTRPO_NMT-213901_nazarov_korotkov\ClassLibrary1\HouseBuilderWindow\bin\Debug\net6.0-windows\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
 C:\Users\yuako\Documents\GitHub\TeamVTRPO_NMT-213901_nazarov_korotkov\ClassLibrary1\HouseBuilderWindow\bin\Debug\net6.0-windows\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
 C:\Users\yuako\Documents\GitHub\TeamVTRPO_NMT-213901_nazarov_korotkov\ClassLibrary1\HouseBuilderWindow\bin\Debug\net6.0-windows\runtimes\any\lib\netcoreapp3.0\FastReport.Compat.dll
+C:\Users\yuako\Documents\GitHub\TeamVTRPO_NMT-213901_nazarov_korotkov\ClassLibrary1\HouseBuilderWindow\bin\Debug\net6.0-windows\DynamicData.dll
+C:\Users\yuako\Documents\GitHub\TeamVTRPO_NMT-213901_nazarov_korotkov\ClassLibrary1\HouseBuilderWindow\bin\Debug\net6.0-windows\ReactiveUI.dll
+C:\Users\yuako\Documents\GitHub\TeamVTRPO_NMT-213901_nazarov_korotkov\ClassLibrary1\HouseBuilderWindow\bin\Debug\net6.0-windows\ReactiveUI.Wpf.dll
+C:\Users\yuako\Documents\GitHub\TeamVTRPO_NMT-213901_nazarov_korotkov\ClassLibrary1\HouseBuilderWindow\bin\Debug\net6.0-windows\Splat.dll
+C:\Users\yuako\Documents\GitHub\TeamVTRPO_NMT-213901_nazarov_korotkov\ClassLibrary1\HouseBuilderWindow\bin\Debug\net6.0-windows\System.Reactive.dll
+C:\Users\yuako\Documents\GitHub\TeamVTRPO_NMT-213901_nazarov_korotkov\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\yuako\Documents\GitHub\TeamVTRPO_NMT-213901_nazarov_korotkov\ClassLibrary1\HouseBuilderWindow\bin\Debug\net6.0-windows\ReactiveUI.Fody.Helpers.dll
+C:\Users\yuako\Documents\GitHub\TeamVTRPO_NMT-213901_nazarov_korotkov\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\HouseBuilderWindow.csproj.Fody.CopyLocal.cache
+C:\Users\yuako\Documents\GitHub\TeamVTRPO_NMT-213901_nazarov_korotkov\ClassLibrary1\HouseBuilderWindow\obj\Debug\net6.0-windows\HouseBuilderWindow.csproj.Fody.RuntimeCopyLocal.cache
