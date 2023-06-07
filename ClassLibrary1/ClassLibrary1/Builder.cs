@@ -16,9 +16,9 @@ public class Builder
     const int numberOfMonthsInLoan = 120;             //количество месяцев на которые берется кредит
     const int numberOfMonthsUntilConstruction = 24;   //через сколько месяцев начнется строительство
 
-    public Builder(List<double> floorsArea, uint numberOfOptions)
+    public Builder(uint numberOfOptions, List<double> floorsArea = null)
     {
-        FloorsArea = floorsArea;
+        FloorsArea = floorsArea ?? new();
         NumberOfOptions = numberOfOptions;
     }
 

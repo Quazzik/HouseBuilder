@@ -140,7 +140,7 @@ namespace HouseBuilderWindow.ViewModels
 
             if (!FloorsGenerator.All(g => g.Area != 0))
                 return;
-            var builder = new Builder(FloorsGenerator.Select(g => g.Area).ToList(), NumberOfOptions);
+            var builder = new Builder(NumberOfOptions, FloorsGenerator.Select(g => g.Area).ToList());
 
             TotalArea = builder.CalculateTotalArea();
             TotalCost = builder.CalculateTotalCost();
