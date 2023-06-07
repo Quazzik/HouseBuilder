@@ -31,25 +31,13 @@ public class Builder
         return FloorsArea.Sum();
     }
 
-    public double CalculateMaterialCost() //общая стоимость строительных материалов
-    {
-        return unitPrice * quantity;
-    }
+    public double CalculateMaterialCost() => unitPrice * quantity;//общая стоимость строительных материалов
 
-    public double CalculateLaborCost() //стоимость работы
-    {
-        return hourlyRate * hoursWorked;
-    }
+    public double CalculateLaborCost() => hourlyRate * hoursWorked;//стоимость работы
 
-    public double CalculatePermitCost() //стоимость всех разрешений
-    {
-        return buildingPermitCost + otherDocumentCosts;
-    }
+    public double CalculatePermitCost() => buildingPermitCost + otherDocumentCosts;//стоимость всех разрешений
 
-    public double CalculateFinishingCost() //общая стоимость отделочных материалов
-    {
-        return finishingMaterialCost * CalculateTotalArea();
-    }
+    public double CalculateFinishingCost() => finishingMaterialCost * CalculateTotalArea();//общая стоимость отделочных материалов
 
     public double CalculateOptionCost() //общая стоимость доп. опций
     {
@@ -60,23 +48,14 @@ public class Builder
         return optionInstallationPrice * NumberOfOptions;
     }
 
-    public double CalculateTotalCost() //общая стоимость строительства
-    {
-        return CalculateMaterialCost() + CalculateLaborCost() + CalculatePermitCost() + CalculateFinishingCost() + CalculateOptionCost();
-    }
+    public double CalculateTotalCost() => CalculateMaterialCost() + CalculateLaborCost() + CalculatePermitCost() + CalculateFinishingCost() + CalculateOptionCost(); //общая стоимость строительства
 
-    public double CalculateMonthlyPayment() //ежемесячный платеж по кредиту
-    {
-        return Math.Ceiling((CalculateTotalCost() * interestRate / numberOfMonthsInLoan) * 100) / 100;
-    }
+    public double CalculateMonthlyPayment() => Math.Ceiling((CalculateTotalCost() * interestRate / numberOfMonthsInLoan) * 100) / 100; //ежемесячный платеж по кредиту
 
-    public double CalculateTotalSavingsNeeded() //расчёт необходимых накоплений для оплаты строительства + резервный фонд
-    {
-        return CalculateTotalCost() + (CalculateTotalCost() * 0.2);
-    }
 
-    public double CalculateMonthlySavings() //сколько нужно откладывать каждый месяц чтобы скопить сумму к началу строительства
-    {
-        return Math.Ceiling((CalculateTotalSavingsNeeded() / numberOfMonthsUntilConstruction) * 100) / 100;
-    }
+    public double CalculateTotalSavingsNeeded() => CalculateTotalCost() + (CalculateTotalCost() * 0.2); //расчёт необходимых накоплений для оплаты строительства + резервный фонд
+
+
+    public double CalculateMonthlySavings() => Math.Ceiling((CalculateTotalSavingsNeeded() / numberOfMonthsUntilConstruction) * 100) / 100; //сколько нужно откладывать каждый месяц чтобы скопить сумму к началу строительства
+
 }

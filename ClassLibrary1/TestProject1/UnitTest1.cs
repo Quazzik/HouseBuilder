@@ -43,7 +43,7 @@ namespace TestProject1
 
         /*
         This solution completely lacks the meaning of the tests given below
-        The problem is that constant variables in a real project would getthe
+        The problem is that constant variables in a real project would get the
         value from a conditional database/directory, which currently do not exist.
         */
 
