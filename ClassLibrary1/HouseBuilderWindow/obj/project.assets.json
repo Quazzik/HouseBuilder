@@ -2,10 +2,10 @@
   "version": 3,
   "targets": {
     "net6.0-windows7.0": {
-      "DynamicData/7.13.5": {
+      "DynamicData/7.14.2": {
         "type": "package",
         "dependencies": {
-          "System.Reactive": "5.0.0"
+          "System.Reactive": "6.0.0"
         },
         "compile": {
           "lib/net6.0/DynamicData.dll": {
@@ -43,7 +43,7 @@
           }
         }
       },
-      "FastReport.OpenSource/2023.2.16": {
+      "FastReport.OpenSource/2023.2.17": {
         "type": "package",
         "dependencies": {
           "FastReport.Compat": "[2023.1.8]",
@@ -69,10 +69,10 @@
           "buildMultiTargeting/FastReport.OpenSource.props": {}
         }
       },
-      "FastReport.OpenSource.Export.PdfSimple/2023.2.16": {
+      "FastReport.OpenSource.Export.PdfSimple/2023.2.17": {
         "type": "package",
         "dependencies": {
-          "FastReport.OpenSource": "2023.2.16"
+          "FastReport.OpenSource": "2023.2.17"
         },
         "compile": {
           "lib/netstandard2.0/FastReport.OpenSource.Export.PdfSimple.dll": {}
@@ -85,6 +85,72 @@
         "type": "package",
         "build": {
           "build/Fody.targets": {}
+        }
+      },
+      "LiveCharts/0.9.7": {
+        "type": "package",
+        "compile": {
+          "lib/net45/LiveCharts.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/LiveCharts.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "LiveCharts.Core/0.9.8": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/LiveCharts.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/LiveCharts.dll": {}
+        }
+      },
+      "LiveCharts.Wpf/0.9.7": {
+        "type": "package",
+        "dependencies": {
+          "LiveCharts": "0.9.7"
+        },
+        "compile": {
+          "lib/net45/LiveCharts.Wpf.dll": {
+            "related": ".pdb;.XML"
+          }
+        },
+        "runtime": {
+          "lib/net45/LiveCharts.Wpf.dll": {
+            "related": ".pdb;.XML"
+          }
+        }
+      },
+      "LiveCharts.Wpf.Core/0.9.8": {
+        "type": "package",
+        "dependencies": {
+          "LiveCharts.Core": "0.9.8"
+        },
+        "compile": {
+          "lib/net5.0-windows7.0/LiveCharts.Wpf.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/LiveCharts.Wpf.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "LiveChartsCore/2.0.0-beta.710": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/LiveChartsCore.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/LiveChartsCore.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Microsoft.CodeAnalysis.Analyzers/2.9.4": {
@@ -301,11 +367,11 @@
           }
         }
       },
-      "ReactiveUI/18.4.44": {
+      "ReactiveUI/19.2.1": {
         "type": "package",
         "dependencies": {
-          "DynamicData": "7.13.5",
-          "Splat": "14.6.8"
+          "DynamicData": "7.14.2",
+          "Splat": "14.6.37"
         },
         "compile": {
           "lib/net6.0/ReactiveUI.dll": {
@@ -318,11 +384,11 @@
           }
         }
       },
-      "ReactiveUI.Fody/18.4.44": {
+      "ReactiveUI.Fody/19.2.1": {
         "type": "package",
         "dependencies": {
           "Fody": "6.7.0",
-          "ReactiveUI": "18.4.44"
+          "ReactiveUI": "19.2.1"
         },
         "compile": {
           "lib/net6.0/ReactiveUI.Fody.Helpers.dll": {
@@ -338,10 +404,10 @@
           "build/ReactiveUI.Fody.props": {}
         }
       },
-      "ReactiveUI.WPF/18.4.44": {
+      "ReactiveUI.WPF/19.2.1": {
         "type": "package",
         "dependencies": {
-          "ReactiveUI": "18.4.44"
+          "ReactiveUI": "19.2.1"
         },
         "compile": {
           "lib/net462/ReactiveUI.Wpf.dll": {
@@ -354,7 +420,7 @@
           }
         }
       },
-      "Splat/14.6.8": {
+      "Splat/14.6.37": {
         "type": "package",
         "compile": {
           "lib/net6.0/Splat.dll": {
@@ -414,20 +480,20 @@
           "lib/netcoreapp2.1/_._": {}
         }
       },
-      "System.Reactive/5.0.0": {
+      "System.Reactive/6.0.0": {
         "type": "package",
         "compile": {
-          "lib/net5.0/System.Reactive.dll": {
+          "lib/net6.0/System.Reactive.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net5.0/System.Reactive.dll": {
+          "lib/net6.0/System.Reactive.dll": {
             "related": ".xml"
           }
         },
         "build": {
-          "buildTransitive/net5.0/_._": {}
+          "buildTransitive/net6.0/_._": {}
         }
       },
       "System.Reflection.Metadata/1.6.0": {
@@ -600,15 +666,16 @@
     }
   },
   "libraries": {
-    "DynamicData/7.13.5": {
-      "sha512": "jpu26ujgGrMSO68t8b6ClEL3tvZy6K7np8Iem30JkQaLMeOCLxLCZ2Uk/Eyq67k/rwEWrraQ3FB5SBEKJaE2iw==",
+    "DynamicData/7.14.2": {
+      "sha512": "r0QHWrxOuWngobI/QXbhvZvGNuLUjAo9ocDuSEsDftf47e6SulGoY8id6vMW2Oo5ZOi4c78NQlL22N+4CJ1CbA==",
       "type": "package",
-      "path": "dynamicdata/7.13.5",
+      "path": "dynamicdata/7.14.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE/LICENSE",
-        "dynamicdata.7.13.5.nupkg.sha512",
+        "README.md",
+        "dynamicdata.7.14.2.nupkg.sha512",
         "dynamicdata.nuspec",
         "lib/net462/DynamicData.dll",
         "lib/net462/DynamicData.xml",
@@ -644,10 +711,10 @@
         "runtimes/any/lib/netcoreapp3.0/FastReport.Compat.dll"
       ]
     },
-    "FastReport.OpenSource/2023.2.16": {
-      "sha512": "ljWBCSjhtDmIprjawya5sv3BTpHobAaeb4O/CErXdtkdFPzcqjaUR30M6eUfYqoe5F1MO1GUX/EklsaJ+qUqIg==",
+    "FastReport.OpenSource/2023.2.17": {
+      "sha512": "3fplcCuMhRk3qsIyiYQ+HUWClFlZt2anb0D56M5FeWKBTn0mdk1WgdqUVlcmH2PvOa3kzN+Km9LYxbAgS4zSaA==",
       "type": "package",
-      "path": "fastreport.opensource/2023.2.16",
+      "path": "fastreport.opensource/2023.2.17",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -655,7 +722,7 @@
         "build/FastReport.OpenSource.props",
         "buildMultiTargeting/FastReport.OpenSource.props",
         "buildTransitive/FastReport.OpenSource.props",
-        "fastreport.opensource.2023.2.16.nupkg.sha512",
+        "fastreport.opensource.2023.2.17.nupkg.sha512",
         "fastreport.opensource.nuspec",
         "frlogo192.png",
         "lib/net462/FastReport.dll",
@@ -666,14 +733,14 @@
         "lib/netstandard2.1/FastReport.xml"
       ]
     },
-    "FastReport.OpenSource.Export.PdfSimple/2023.2.16": {
-      "sha512": "1EbVFPR3pNjZ3C0Zi8q6W13J8/QrU9lv+CiwncAd4ivRw8PPtiaLCF/JtZQdfOJm0mhsaoqy97eu54ulfjY3HQ==",
+    "FastReport.OpenSource.Export.PdfSimple/2023.2.17": {
+      "sha512": "fi9BNbiPf+bcacScFDL+MbfxISQLAZBOR9pm89D/ICYpG6AaqerAgTluMykuz8X9DaQ06E9pSzFlGmKVQ+H2eA==",
       "type": "package",
-      "path": "fastreport.opensource.export.pdfsimple/2023.2.16",
+      "path": "fastreport.opensource.export.pdfsimple/2023.2.17",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "fastreport.opensource.export.pdfsimple.2023.2.16.nupkg.sha512",
+        "fastreport.opensource.export.pdfsimple.2023.2.17.nupkg.sha512",
         "fastreport.opensource.export.pdfsimple.nuspec",
         "lib/net462/FastReport.OpenSource.Export.PdfSimple.dll",
         "lib/netstandard2.0/FastReport.OpenSource.Export.PdfSimple.dll"
@@ -710,6 +777,98 @@
         "netstandardtask/Mono.Cecil.Rocks.pdb",
         "netstandardtask/Mono.Cecil.dll",
         "netstandardtask/Mono.Cecil.pdb"
+      ]
+    },
+    "LiveCharts/0.9.7": {
+      "sha512": "p4xyBrUaNNfkWZSNsIle0r51cyVyFg0Yi0uBRZM5GQtdFiA/7guZHlffFyNUILIdux10Ch2hUaJpcZENVU9aaQ==",
+      "type": "package",
+      "path": "livecharts/0.9.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/LiveCharts.dll",
+        "lib/net40/LiveCharts.pdb",
+        "lib/net40/LiveCharts.xml",
+        "lib/net45/LiveCharts.dll",
+        "lib/net45/LiveCharts.pdb",
+        "lib/net45/LiveCharts.xml",
+        "lib/portable-net45+win8+wp8/LiveCharts.XML",
+        "lib/portable-net45+win8+wp8/LiveCharts.dll",
+        "lib/portable-net45+win8+wp8/LiveCharts.pdb",
+        "livecharts.0.9.7.nupkg.sha512",
+        "livecharts.nuspec",
+        "readme.txt"
+      ]
+    },
+    "LiveCharts.Core/0.9.8": {
+      "sha512": "USb2TBOeER19X0ar5Zgki1ezjrSXBOmUoz3IqzTeksDm6hoaLFqs3iW9+wjHFuWNQGy9lLcVh2YIhhxVIg+zNQ==",
+      "type": "package",
+      "path": "livecharts.core/0.9.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/LiveCharts.dll",
+        "lib/netstandard2.0/LiveCharts.dll",
+        "livecharts.core.0.9.8.nupkg.sha512",
+        "livecharts.core.nuspec"
+      ]
+    },
+    "LiveCharts.Wpf/0.9.7": {
+      "sha512": "lv6YZoK0B4yWykMq5b9grZXtIbTj+OWu4sVN9GDpdgV6zffu64m4d5CW8KSjfSl9rB8VU649x1NZvhoU67hCDg==",
+      "type": "package",
+      "path": "livecharts.wpf/0.9.7",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/LiveCharts.Wpf.XML",
+        "lib/net40/LiveCharts.Wpf.dll",
+        "lib/net40/LiveCharts.Wpf.pdb",
+        "lib/net45/LiveCharts.Wpf.XML",
+        "lib/net45/LiveCharts.Wpf.dll",
+        "lib/net45/LiveCharts.Wpf.pdb",
+        "livecharts.wpf.0.9.7.nupkg.sha512",
+        "livecharts.wpf.nuspec",
+        "tools/install.ps1"
+      ]
+    },
+    "LiveCharts.Wpf.Core/0.9.8": {
+      "sha512": "jMBdknuG3EOMKA0NaqqwMjhsZpRAzd0UqP0SlwXIBJ+ZoJg5TF9C4rDdKqInEs+RycYmIwmrZWvmfDxsM5MMJw==",
+      "type": "package",
+      "path": "livecharts.wpf.core/0.9.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/LiveCharts.Wpf.dll",
+        "lib/net472/LiveCharts.Wpf.dll",
+        "lib/net5.0-windows7.0/LiveCharts.Wpf.dll",
+        "lib/netcoreapp3.1/LiveCharts.Wpf.dll",
+        "livecharts.wpf.core.0.9.8.nupkg.sha512",
+        "livecharts.wpf.core.nuspec"
+      ]
+    },
+    "LiveChartsCore/2.0.0-beta.710": {
+      "sha512": "6ak1We4oKlSDE5YGxR3LaCQdvmZS/Zg8GLgKCszQb+WJn3ozKneFquCSUw+O3BPq2e88RzAN6fK/95d7CuU68g==",
+      "type": "package",
+      "path": "livechartscore/2.0.0-beta.710",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net6.0-android31.0/LiveChartsCore.dll",
+        "lib/net6.0-android31.0/LiveChartsCore.xml",
+        "lib/net6.0-ios16.1/LiveChartsCore.dll",
+        "lib/net6.0-ios16.1/LiveChartsCore.xml",
+        "lib/net6.0-maccatalyst16.1/LiveChartsCore.dll",
+        "lib/net6.0-maccatalyst16.1/LiveChartsCore.xml",
+        "lib/net6.0/LiveChartsCore.dll",
+        "lib/net6.0/LiveChartsCore.xml",
+        "lib/netcoreapp2.0/LiveChartsCore.dll",
+        "lib/netcoreapp2.0/LiveChartsCore.xml",
+        "lib/netstandard2.0/LiveChartsCore.dll",
+        "lib/netstandard2.0/LiveChartsCore.xml",
+        "livechartscore.2.0.0-beta.710.nupkg.sha512",
+        "livechartscore.nuspec"
       ]
     },
     "Microsoft.CodeAnalysis.Analyzers/2.9.4": {
@@ -913,14 +1072,15 @@
         "version.txt"
       ]
     },
-    "ReactiveUI/18.4.44": {
-      "sha512": "DRtnK85MBdtwG+zjTluLWVnbUPzDOoHOFuIy6B4OAwvWNCkkRpf7FIHVwZz7cTjlG25eBeIJqWjgaejP6ejCHg==",
+    "ReactiveUI/19.2.1": {
+      "sha512": "utHBuxDlB/Rajhi9EwgjSdXv8Lqwd2GU8sFlcjjeCBd3Y4lyVvcB9qS/SM87juZGf9mr1A7cd3ML/kEL+Lsxkg==",
       "type": "package",
-      "path": "reactiveui/18.4.44",
+      "path": "reactiveui/19.2.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE/LICENSE",
+        "README.md",
         "lib/monoandroid12.0/ReactiveUI.dll",
         "lib/monoandroid12.0/ReactiveUI.pdb",
         "lib/monoandroid12.0/ReactiveUI.xml",
@@ -969,18 +1129,19 @@
         "lib/xamarintvos10/ReactiveUI.dll",
         "lib/xamarintvos10/ReactiveUI.xml",
         "logo.png",
-        "reactiveui.18.4.44.nupkg.sha512",
+        "reactiveui.19.2.1.nupkg.sha512",
         "reactiveui.nuspec"
       ]
     },
-    "ReactiveUI.Fody/18.4.44": {
-      "sha512": "FmzTAmlzUoi2AK49FCiC7vfv92tWyf/ySIpY/Bm1iVQr7jEIHmN0KyvYt18QI4sdTMJi86GSTnTapZupiEPqIQ==",
+    "ReactiveUI.Fody/19.2.1": {
+      "sha512": "G9yhjzf19zFZXwnM6L6AykEGTUg5hmDrEClMOyZ6uNlbRJRXDodoPkjnvFeOzlpzRl19ZHMgvOxNJ1QxUqW8lQ==",
       "type": "package",
-      "path": "reactiveui.fody/18.4.44",
+      "path": "reactiveui.fody/19.2.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE/LICENSE",
+        "README.md",
         "build/ReactiveUI.Fody.props",
         "lib/monoandroid12.0/ReactiveUI.Fody.Helpers.dll",
         "lib/monoandroid12.0/ReactiveUI.Fody.Helpers.pdb",
@@ -1008,19 +1169,20 @@
         "lib/xamarintvos10/ReactiveUI.Fody.Helpers.dll",
         "lib/xamarintvos10/ReactiveUI.Fody.Helpers.xml",
         "logo.png",
-        "reactiveui.fody.18.4.44.nupkg.sha512",
+        "reactiveui.fody.19.2.1.nupkg.sha512",
         "reactiveui.fody.nuspec",
         "weaver/ReactiveUI.Fody.dll"
       ]
     },
-    "ReactiveUI.WPF/18.4.44": {
-      "sha512": "CYgYTfk50rgsMlTH+MLx7nQBR512FudbkEHiUiH5DIXIdKwsszoQOgxLp/DD/k4cfGJK3aUuLmNZUYYUxMbSiQ==",
+    "ReactiveUI.WPF/19.2.1": {
+      "sha512": "QesHKeyUvVN0H8GjBpad10/8y7F7nPjAJVjdcMxrG6ntwh1ZA8pNVjQtcnGF5R6PVCW0eI+gRFS7HMGlxJhebQ==",
       "type": "package",
-      "path": "reactiveui.wpf/18.4.44",
+      "path": "reactiveui.wpf/19.2.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE/LICENSE",
+        "README.md",
         "lib/net462/ReactiveUI.Wpf.dll",
         "lib/net462/ReactiveUI.Wpf.xml",
         "lib/net472/ReactiveUI.Wpf.dll",
@@ -1036,14 +1198,14 @@
         "lib/net7.0-windows10.0.19041/ReactiveUI.Wpf.dll",
         "lib/net7.0-windows10.0.19041/ReactiveUI.Wpf.xml",
         "logo.png",
-        "reactiveui.wpf.18.4.44.nupkg.sha512",
+        "reactiveui.wpf.19.2.1.nupkg.sha512",
         "reactiveui.wpf.nuspec"
       ]
     },
-    "Splat/14.6.8": {
-      "sha512": "WdhGXUvsWPNPzBLc/LC1Q5jLOczupHDc+4Skl0JaTEuyoDjxxe/Dme8UjGTkCPYbhnVWEsEJprWqyWDY5RNB9A==",
+    "Splat/14.6.37": {
+      "sha512": "6BXbAks4Rqjo6dJW4KfTBZAf6ZRygjE78aVUbEBuSLwKGl+WZjsWZSIYIfYtqPbCEs74HvSTg+4xhSE93xl1kQ==",
       "type": "package",
-      "path": "splat/14.6.8",
+      "path": "splat/14.6.37",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1054,7 +1216,7 @@
         "lib/net7.0/Splat.xml",
         "lib/netstandard2.0/Splat.dll",
         "lib/netstandard2.0/Splat.xml",
-        "splat.14.6.8.nupkg.sha512",
+        "splat.14.6.37.nupkg.sha512",
         "splat.nuspec"
       ]
     },
@@ -1141,32 +1303,31 @@
         "version.txt"
       ]
     },
-    "System.Reactive/5.0.0": {
-      "sha512": "erBZjkQHWL9jpasCE/0qKAryzVBJFxGHVBAvgRN1bzM0q2s1S4oYREEEL0Vb+1kA/6BKb5FjUZMp5VXmy+gzkQ==",
+    "System.Reactive/6.0.0": {
+      "sha512": "31kfaW4ZupZzPsI5PVe77VhnvFF55qgma7KZr/E0iFTs6fmdhhG8j0mgEx620iLTey1EynOkEfnyTjtNEpJzGw==",
       "type": "package",
-      "path": "system.reactive/5.0.0",
+      "path": "system.reactive/6.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "build/net5.0/_._",
-        "build/netcoreapp3.1/System.Reactive.dll",
-        "build/netcoreapp3.1/System.Reactive.targets",
-        "build/netcoreapp3.1/System.Reactive.xml",
-        "buildTransitive/net5.0/_._",
-        "buildTransitive/netcoreapp3.1/System.Reactive.targets",
+        "build/net6.0-windows10.0.19041/_._",
+        "build/net6.0/_._",
+        "buildTransitive/net6.0-windows10.0.19041/_._",
+        "buildTransitive/net6.0/_._",
+        "icon.png",
         "lib/net472/System.Reactive.dll",
         "lib/net472/System.Reactive.xml",
-        "lib/net5.0-windows10.0.19041/System.Reactive.dll",
-        "lib/net5.0-windows10.0.19041/System.Reactive.xml",
-        "lib/net5.0/System.Reactive.dll",
-        "lib/net5.0/System.Reactive.xml",
-        "lib/netcoreapp3.1/_._",
+        "lib/net6.0-windows10.0.19041/System.Reactive.dll",
+        "lib/net6.0-windows10.0.19041/System.Reactive.xml",
+        "lib/net6.0/System.Reactive.dll",
+        "lib/net6.0/System.Reactive.xml",
         "lib/netstandard2.0/System.Reactive.dll",
         "lib/netstandard2.0/System.Reactive.xml",
-        "lib/uap10.0.16299/System.Reactive.dll",
-        "lib/uap10.0.16299/System.Reactive.pri",
-        "lib/uap10.0.16299/System.Reactive.xml",
-        "system.reactive.5.0.0.nupkg.sha512",
+        "lib/uap10.0.18362/System.Reactive.dll",
+        "lib/uap10.0.18362/System.Reactive.pri",
+        "lib/uap10.0.18362/System.Reactive.xml",
+        "readme.md",
+        "system.reactive.6.0.0.nupkg.sha512",
         "system.reactive.nuspec"
       ]
     },
@@ -1534,12 +1695,16 @@
   },
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
-      "FastReport.OpenSource >= 2023.2.16",
-      "FastReport.OpenSource.Export.PdfSimple >= 2023.2.16",
+      "FastReport.OpenSource >= 2023.2.17",
+      "FastReport.OpenSource.Export.PdfSimple >= 2023.2.17",
       "HouseBuilder >= 1.0.0",
-      "ReactiveUI >= 18.4.44",
-      "ReactiveUI.Fody >= 18.4.44",
-      "ReactiveUI.WPF >= 18.4.44"
+      "LiveCharts >= 0.9.7",
+      "LiveCharts.Wpf >= 0.9.7",
+      "LiveCharts.Wpf.Core >= 0.9.8",
+      "LiveChartsCore >= 2.0.0-beta.710",
+      "ReactiveUI >= 19.2.1",
+      "ReactiveUI.Fody >= 19.2.1",
+      "ReactiveUI.WPF >= 19.2.1"
     ]
   },
   "packageFolders": {
@@ -1593,23 +1758,39 @@
         "dependencies": {
           "FastReport.OpenSource": {
             "target": "Package",
-            "version": "[2023.2.16, )"
+            "version": "[2023.2.17, )"
           },
           "FastReport.OpenSource.Export.PdfSimple": {
             "target": "Package",
-            "version": "[2023.2.16, )"
+            "version": "[2023.2.17, )"
+          },
+          "LiveCharts": {
+            "target": "Package",
+            "version": "[0.9.7, )"
+          },
+          "LiveCharts.Wpf": {
+            "target": "Package",
+            "version": "[0.9.7, )"
+          },
+          "LiveCharts.Wpf.Core": {
+            "target": "Package",
+            "version": "[0.9.8, )"
+          },
+          "LiveChartsCore": {
+            "target": "Package",
+            "version": "[2.0.0-beta.710, )"
           },
           "ReactiveUI": {
             "target": "Package",
-            "version": "[18.4.44, )"
+            "version": "[19.2.1, )"
           },
           "ReactiveUI.Fody": {
             "target": "Package",
-            "version": "[18.4.44, )"
+            "version": "[19.2.1, )"
           },
           "ReactiveUI.WPF": {
             "target": "Package",
-            "version": "[18.4.44, )"
+            "version": "[19.2.1, )"
           }
         },
         "imports": [
@@ -1640,7 +1821,27 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Пакет \"ReactiveUI.WPF 18.4.44\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\", а не целевой платформы проекта \"net6.0-windows7.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "message": "Пакет \"LiveCharts 0.9.7\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\", а не целевой платформы проекта \"net6.0-windows7.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "LiveCharts",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"LiveCharts.Wpf 0.9.7\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\", а не целевой платформы проекта \"net6.0-windows7.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "LiveCharts.Wpf",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"ReactiveUI.WPF 19.2.1\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\", а не целевой платформы проекта \"net6.0-windows7.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
       "libraryId": "ReactiveUI.WPF",
       "targetGraphs": [
         "net6.0-windows7.0"

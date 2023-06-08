@@ -111,23 +111,39 @@
           "dependencies": {
             "FastReport.OpenSource": {
               "target": "Package",
-              "version": "[2023.2.16, )"
+              "version": "[2023.2.17, )"
             },
             "FastReport.OpenSource.Export.PdfSimple": {
               "target": "Package",
-              "version": "[2023.2.16, )"
+              "version": "[2023.2.17, )"
+            },
+            "LiveCharts": {
+              "target": "Package",
+              "version": "[0.9.7, )"
+            },
+            "LiveCharts.Wpf": {
+              "target": "Package",
+              "version": "[0.9.7, )"
+            },
+            "LiveCharts.Wpf.Core": {
+              "target": "Package",
+              "version": "[0.9.8, )"
+            },
+            "LiveChartsCore": {
+              "target": "Package",
+              "version": "[2.0.0-beta.710, )"
             },
             "ReactiveUI": {
               "target": "Package",
-              "version": "[18.4.44, )"
+              "version": "[19.2.1, )"
             },
             "ReactiveUI.Fody": {
               "target": "Package",
-              "version": "[18.4.44, )"
+              "version": "[19.2.1, )"
             },
             "ReactiveUI.WPF": {
               "target": "Package",
-              "version": "[18.4.44, )"
+              "version": "[19.2.1, )"
             }
           },
           "imports": [

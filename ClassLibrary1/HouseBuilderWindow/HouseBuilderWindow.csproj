@@ -8,11 +8,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="FastReport.OpenSource" Version="2023.2.16" />
-    <PackageReference Include="FastReport.OpenSource.Export.PdfSimple" Version="2023.2.16" />
-    <PackageReference Include="ReactiveUI" Version="18.4.44" />
-    <PackageReference Include="ReactiveUI.Fody" Version="18.4.44" />
-    <PackageReference Include="ReactiveUI.WPF" Version="18.4.44" />
+    <PackageReference Include="FastReport.OpenSource" Version="2023.2.17" />
+    <PackageReference Include="FastReport.OpenSource.Export.PdfSimple" Version="2023.2.17" />
+    <PackageReference Include="LiveCharts" Version="0.9.7" />
+    <PackageReference Include="LiveCharts.Wpf" Version="0.9.7" />
+    <PackageReference Include="LiveCharts.Wpf.Core" Version="0.9.8" />
+    <PackageReference Include="LiveChartsCore" Version="2.0.0-beta.710" />
+    <PackageReference Include="ReactiveUI" Version="19.2.1" />
+    <PackageReference Include="ReactiveUI.Fody" Version="19.2.1" />
+    <PackageReference Include="ReactiveUI.WPF" Version="19.2.1" />
   </ItemGroup>
 
   <ItemGroup>

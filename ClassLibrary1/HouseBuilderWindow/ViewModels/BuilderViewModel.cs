@@ -32,6 +32,7 @@ namespace HouseBuilderWindow.ViewModels
             CountCommand = ReactiveCommand.Create(Count);
             ReportCommand = ReactiveCommand.Create(CreateReport);
             RefInfoCommand = ReactiveCommand.Create(ShowRefInfo);
+            DiagramCommand = ReactiveCommand.Create(ShowDiagram);
         }
 
         #region Properties
@@ -140,17 +141,18 @@ namespace HouseBuilderWindow.ViewModels
 
             if (!FloorsGenerator.All(g => g.Area != 0))
                 return;
+
             var builder = new Builder(NumberOfOptions, FloorsGenerator.Select(g => g.Area).ToList());
 
             TotalArea = builder.CalculateTotalArea();
-            TotalCost = builder.CalculateTotalCost();
-            TotalSavingsNeeded = builder.CalculateTotalSavingsNeeded();
             MaterialCost = builder.CalculateMaterialCost();
             LaborCost = builder.CalculateLaborCost();
             PermitCost = builder.CalculatePermitCost();
             FinishingCost = builder.CalculateFinishingCost();
             OptionCost = builder.CalculateOptionCost();
+            TotalCost = builder.CalculateTotalCost();
             MonthlyPayment = builder.CalculateMonthlyPayment();
+            TotalSavingsNeeded = builder.CalculateTotalSavingsNeeded();
             MonthlySavings = builder.CalculateMonthlySavings();
         }
 
@@ -165,10 +167,10 @@ namespace HouseBuilderWindow.ViewModels
                 new Data { Name = "Стоимость всех разрешений", Value = PermitCost},
                 new Data { Name = "Общая стоимость отделочных материалов", Value = FinishingCost },
                 new Data { Name = "Общая стоимость доп. опций", Value = OptionCost },
-                new Data { Name = "общая стоимость строительстваы", Value = TotalCost },
-                new Data { Name = "ежемесячный платеж по кредиту", Value = MonthlyPayment },
-                new Data { Name = "расчёт необходимых накоплений для оплаты строительства + резервный фонд", Value = TotalSavingsNeeded },
-                new Data { Name = "сколько нужно откладывать каждый месяц чтобы скопить сумму к началу строительства", Value = MonthlySavings }
+                new Data { Name = "Общая стоимость строительства", Value = TotalCost },
+                new Data { Name = "Ежемесячный платеж по кредиту", Value = MonthlyPayment },
+                new Data { Name = "Расчёт необходимых накоплений для оплаты строительства + резервный фонд", Value = TotalSavingsNeeded },
+                new Data { Name = "Сколько нужно откладывать каждый месяц чтобы скопить сумму к началу строительства", Value = MonthlySavings }
             };
 
             if (reportData.Any(d => d.Value <= 0))
@@ -205,9 +207,34 @@ namespace HouseBuilderWindow.ViewModels
         public ReactiveCommand<Unit, Unit> RefInfoCommand { get; set; }
         private void ShowRefInfo()
         {
-            MessageBox.Show("/*справка*/", "Builder", MessageBoxButton.OK, MessageBoxImage.Information);
+            MessageBox.Show("Пользование приложением:\r\n" +
+                "1. Для начала нужно ввести в верхнем поле количество этажей для строющегося здания (это количество должно быть от 1 до 10).\r\n" +
+                "2. Далее (или после п. 3) нужно ввести количество дополнительных опций, количество которых определяется после согласования проекта с заказчиком (количество дополнительных опций не имеет ограничений)\r\n" +
+                "3. Введите площадь каждого этажа дома, начиная с 1-го\r\n" +
+                "4. Нажмите кнопку \"Рассчитать\" - после этого вы увидете на полях справа вместе с подписями общую площадь дома, стоимость каждой услуги строительства а также дополнительную информацию, полезную для заказчика\r\n" +
+                "5. Далее вы можете сгенерировать отчет в виде PDF-файла, для общей отчетности по работе и для предоставления информации заказчику. Для генерации отчета нажмите кнопку \"Сгенерировать отчет\", отчет появится в PDF-виде по пути: \"Диск ..\":\\Users\\\"Пользователь\"\\AppData\\Roaming\\reportFolder\\report-\"Дата формирования отчета\"\r\n" +
+                "6. Вы также можете менять любые поля куда вводили информацию, после изменений снова нажмите кнопку \"Рассчитать\" и изменения вступят в силу - вы увидите новую информацию после всех рассчетов.\r\n" +
+                "7. После работы в приложении - для его закрытия - нажмите крестик \"Х\" в правом верхнем углу окна приложения\r\n",
+                "Builder", MessageBoxButton.OK, MessageBoxImage.Information);
         }
+        public ReactiveCommand<Unit,Unit> DiagramCommand { get; set; }
+        private void ShowDiagram() 
+        {
+            var neededPropsNames = new HashSet<string>() { "LaborCost", "PermitCost", "FinishingCost", "OptionCost", "TotalCost" };
 
+
+            var props = GetType().GetProperties().Where(p => neededPropsNames.Contains(p.Name));
+
+            var propValues = new Dictionary<string, double>(props.Select(p => KeyValuePair.Create(p.Name, (double)p.GetValue(this))));
+
+            if (propValues.Values.Any(v => v <= 0))
+            {
+                MessageBox.Show("Нет данных для создания диаграммы.", "Builder", MessageBoxButton.OK, MessageBoxImage.Error);
+                return;
+            }
+
+            new WindowDiagramm(propValues).Show();
+        }
         #endregion
     }
 }

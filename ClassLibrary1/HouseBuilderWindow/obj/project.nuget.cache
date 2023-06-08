@@ -1,28 +1,33 @@
 {
   "version": 2,
-  "dgSpecHash": "7OyqlVsQn8+cta0sfOmESIp/eI299sxk6SsbxMH/kTFKcf06BxYHQVOjjdmJmLC7sz3L1PF5S0PaawM+J5R+qw==",
+  "dgSpecHash": "RrpZo83nhaWD14eXaVXoS+y089msQ7raJmbMiZp4kndQAE3yK8YVcFCznU1Du6BSp2CZFp9T0RA8kcrElIqlbA==",
   "success": true,
   "projectFilePath": "C:\\Users\\yuako\\Documents\\GitHub\\TeamVTRPO_NMT-213901_nazarov_korotkov\\ClassLibrary1\\HouseBuilderWindow\\HouseBuilderWindow.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\yuako\\.nuget\\packages\\dynamicdata\\7.13.5\\dynamicdata.7.13.5.nupkg.sha512",
+    "C:\\Users\\yuako\\.nuget\\packages\\dynamicdata\\7.14.2\\dynamicdata.7.14.2.nupkg.sha512",
     "C:\\Users\\yuako\\.nuget\\packages\\fastreport.compat\\2023.1.8\\fastreport.compat.2023.1.8.nupkg.sha512",
-    "C:\\Users\\yuako\\.nuget\\packages\\fastreport.opensource\\2023.2.16\\fastreport.opensource.2023.2.16.nupkg.sha512",
-    "C:\\Users\\yuako\\.nuget\\packages\\fastreport.opensource.export.pdfsimple\\2023.2.16\\fastreport.opensource.export.pdfsimple.2023.2.16.nupkg.sha512",
+    "C:\\Users\\yuako\\.nuget\\packages\\fastreport.opensource\\2023.2.17\\fastreport.opensource.2023.2.17.nupkg.sha512",
+    "C:\\Users\\yuako\\.nuget\\packages\\fastreport.opensource.export.pdfsimple\\2023.2.17\\fastreport.opensource.export.pdfsimple.2023.2.17.nupkg.sha512",
     "C:\\Users\\yuako\\.nuget\\packages\\fody\\6.7.0\\fody.6.7.0.nupkg.sha512",
+    "C:\\Users\\yuako\\.nuget\\packages\\livecharts\\0.9.7\\livecharts.0.9.7.nupkg.sha512",
+    "C:\\Users\\yuako\\.nuget\\packages\\livecharts.core\\0.9.8\\livecharts.core.0.9.8.nupkg.sha512",
+    "C:\\Users\\yuako\\.nuget\\packages\\livecharts.wpf\\0.9.7\\livecharts.wpf.0.9.7.nupkg.sha512",
+    "C:\\Users\\yuako\\.nuget\\packages\\livecharts.wpf.core\\0.9.8\\livecharts.wpf.core.0.9.8.nupkg.sha512",
+    "C:\\Users\\yuako\\.nuget\\packages\\livechartscore\\2.0.0-beta.710\\livechartscore.2.0.0-beta.710.nupkg.sha512",
     "C:\\Users\\yuako\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\2.9.4\\microsoft.codeanalysis.analyzers.2.9.4.nupkg.sha512",
     "C:\\Users\\yuako\\.nuget\\packages\\microsoft.codeanalysis.common\\3.3.1\\microsoft.codeanalysis.common.3.3.1.nupkg.sha512",
     "C:\\Users\\yuako\\.nuget\\packages\\microsoft.codeanalysis.csharp\\3.3.1\\microsoft.codeanalysis.csharp.3.3.1.nupkg.sha512",
     "C:\\Users\\yuako\\.nuget\\packages\\microsoft.codeanalysis.visualbasic\\3.3.1\\microsoft.codeanalysis.visualbasic.3.3.1.nupkg.sha512",
     "C:\\Users\\yuako\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\yuako\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
-    "C:\\Users\\yuako\\.nuget\\packages\\reactiveui\\18.4.44\\reactiveui.18.4.44.nupkg.sha512",
-    "C:\\Users\\yuako\\.nuget\\packages\\reactiveui.fody\\18.4.44\\reactiveui.fody.18.4.44.nupkg.sha512",
-    "C:\\Users\\yuako\\.nuget\\packages\\reactiveui.wpf\\18.4.44\\reactiveui.wpf.18.4.44.nupkg.sha512",
-    "C:\\Users\\yuako\\.nuget\\packages\\splat\\14.6.8\\splat.14.6.8.nupkg.sha512",
+    "C:\\Users\\yuako\\.nuget\\packages\\reactiveui\\19.2.1\\reactiveui.19.2.1.nupkg.sha512",
+    "C:\\Users\\yuako\\.nuget\\packages\\reactiveui.fody\\19.2.1\\reactiveui.fody.19.2.1.nupkg.sha512",
+    "C:\\Users\\yuako\\.nuget\\packages\\reactiveui.wpf\\19.2.1\\reactiveui.wpf.19.2.1.nupkg.sha512",
+    "C:\\Users\\yuako\\.nuget\\packages\\splat\\14.6.37\\splat.14.6.37.nupkg.sha512",
     "C:\\Users\\yuako\\.nuget\\packages\\system.collections.immutable\\1.5.0\\system.collections.immutable.1.5.0.nupkg.sha512",
     "C:\\Users\\yuako\\.nuget\\packages\\system.drawing.common\\4.7.0\\system.drawing.common.4.7.0.nupkg.sha512",
     "C:\\Users\\yuako\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
-    "C:\\Users\\yuako\\.nuget\\packages\\system.reactive\\5.0.0\\system.reactive.5.0.0.nupkg.sha512",
+    "C:\\Users\\yuako\\.nuget\\packages\\system.reactive\\6.0.0\\system.reactive.6.0.0.nupkg.sha512",
     "C:\\Users\\yuako\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512",
     "C:\\Users\\yuako\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
     "C:\\Users\\yuako\\.nuget\\packages\\system.security.accesscontrol\\4.5.0\\system.security.accesscontrol.4.5.0.nupkg.sha512",
@@ -38,7 +43,27 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Пакет \"ReactiveUI.WPF 18.4.44\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\", а не целевой платформы проекта \"net6.0-windows7.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "message": "Пакет \"LiveCharts 0.9.7\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\", а не целевой платформы проекта \"net6.0-windows7.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "LiveCharts",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"LiveCharts.Wpf 0.9.7\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\", а не целевой платформы проекта \"net6.0-windows7.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "LiveCharts.Wpf",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"ReactiveUI.WPF 19.2.1\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\", а не целевой платформы проекта \"net6.0-windows7.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
       "libraryId": "ReactiveUI.WPF",
       "targetGraphs": [
         "net6.0-windows7.0"

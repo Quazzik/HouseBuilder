@@ -67,7 +67,7 @@
                     <Label Content="{Binding TotalCost, Mode=OneWay, Converter={StaticResource doubleToString}}"/>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">
-                    <Label Content="ежемесячный платеж по кредиту:" Width="325"/>
+                    <Label Content="Ежемесячный платеж по кредиту:" Width="325"/>
                     <Label Content="{Binding MonthlyPayment, Mode=OneWay, Converter={StaticResource doubleToString}}"/>
                 </StackPanel>
                 <StackPanel Orientation="Horizontal">
@@ -84,6 +84,7 @@
             <Button Height="20" Width="80" Content="Расчитать" Command="{Binding CountCommand}"/>
             <Button Height="20" Width="130" Content="Сгенерировать отчет" Command="{Binding ReportCommand}" Margin="10 0 0 0"/>
             <Button Height="20" Width="60" Content="Справка" Command="{Binding RefInfoCommand}" Margin="10 0 0 0"/>
+            <Button Height="20" Width="75" Content="Диаграмма" Command="{Binding DiagramCommand}" Margin="10 0 0 0"/>
         </StackPanel>
     </StackPanel>
 </Window>

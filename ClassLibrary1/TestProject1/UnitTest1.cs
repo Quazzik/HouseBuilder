@@ -15,7 +15,7 @@ namespace TestProject1
         public void AreaGood()
         {
             Builder AreaGood = new(1);
-            for (int i = 0; i < 5; i++) 
+            for (int i = 0; i < 5; i++)
                 AreaGood.FloorsArea.Add(12);
             double expected = 60;
             double actual = AreaGood.CalculateTotalArea();
@@ -30,12 +30,12 @@ namespace TestProject1
             Assert.That(actual, Is.EqualTo(expected));
         }
         [Test]
-        public void TotalAreaGood() 
+        public void TotalAreaGood()
         {
             Builder TotalGood = new(1);
             for (int i = 0; i < 2; i++)
                 TotalGood.FloorsArea.Add(12);
-            
+
             double expected = 24;
             double actual = TotalGood.CalculateTotalArea();
             Assert.That(actual, Is.EqualTo(expected));

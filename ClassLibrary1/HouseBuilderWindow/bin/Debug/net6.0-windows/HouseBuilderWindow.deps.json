@@ -8,25 +8,29 @@
     ".NETCoreApp,Version=v6.0": {
       "HouseBuilderWindow/1.0.0": {
         "dependencies": {
-          "FastReport.OpenSource": "2023.2.16",
-          "FastReport.OpenSource.Export.PdfSimple": "2023.2.16",
+          "FastReport.OpenSource": "2023.2.17",
+          "FastReport.OpenSource.Export.PdfSimple": "2023.2.17",
           "HouseBuilder": "1.0.0",
-          "ReactiveUI": "18.4.44",
-          "ReactiveUI.Fody": "18.4.44",
-          "ReactiveUI.WPF": "18.4.44"
+          "LiveCharts": "0.9.7",
+          "LiveCharts.Wpf": "0.9.7",
+          "LiveCharts.Wpf.Core": "0.9.8",
+          "LiveChartsCore": "2.0.0-beta.710",
+          "ReactiveUI": "19.2.1",
+          "ReactiveUI.Fody": "19.2.1",
+          "ReactiveUI.WPF": "19.2.1"
         },
         "runtime": {
           "HouseBuilderWindow.dll": {}
         }
       },
-      "DynamicData/7.13.5": {
+      "DynamicData/7.14.2": {
         "dependencies": {
-          "System.Reactive": "5.0.0"
+          "System.Reactive": "6.0.0"
         },
         "runtime": {
           "lib/net6.0/DynamicData.dll": {
-            "assemblyVersion": "7.13.0.0",
-            "fileVersion": "7.13.5.53706"
+            "assemblyVersion": "7.14.0.0",
+            "fileVersion": "7.14.2.39667"
           }
         }
       },
@@ -50,7 +54,7 @@
           }
         }
       },
-      "FastReport.OpenSource/2023.2.16": {
+      "FastReport.OpenSource/2023.2.17": {
         "dependencies": {
           "FastReport.Compat": "2023.1.8",
           "System.Drawing.Common": "4.7.0",
@@ -60,23 +64,56 @@
         },
         "runtime": {
           "lib/netstandard2.1/FastReport.dll": {
-            "assemblyVersion": "2023.2.16.0",
-            "fileVersion": "2023.2.16.0"
+            "assemblyVersion": "2023.2.17.0",
+            "fileVersion": "2023.2.17.0"
           }
         }
       },
-      "FastReport.OpenSource.Export.PdfSimple/2023.2.16": {
+      "FastReport.OpenSource.Export.PdfSimple/2023.2.17": {
         "dependencies": {
-          "FastReport.OpenSource": "2023.2.16"
+          "FastReport.OpenSource": "2023.2.17"
         },
         "runtime": {
           "lib/netstandard2.0/FastReport.OpenSource.Export.PdfSimple.dll": {
-            "assemblyVersion": "2023.2.16.0",
-            "fileVersion": "2023.2.16.0"
+            "assemblyVersion": "2023.2.17.0",
+            "fileVersion": "2023.2.17.0"
           }
         }
       },
       "Fody/6.7.0": {},
+      "LiveCharts/0.9.7": {
+        "runtime": {
+          "lib/net45/LiveCharts.dll": {
+            "assemblyVersion": "0.9.7.0",
+            "fileVersion": "0.9.7.0"
+          }
+        }
+      },
+      "LiveCharts.Core/0.9.8": {},
+      "LiveCharts.Wpf/0.9.7": {
+        "dependencies": {
+          "LiveCharts": "0.9.7"
+        },
+        "runtime": {
+          "lib/net45/LiveCharts.Wpf.dll": {
+            "assemblyVersion": "0.9.7.0",
+            "fileVersion": "0.9.7.0"
+          }
+        }
+      },
+      "LiveCharts.Wpf.Core/0.9.8": {
+        "dependencies": {
+          "LiveCharts.Core": "0.9.8"
+        }
+      },
+      "LiveChartsCore/2.0.0-beta.710": {
+        "runtime": {
+          "lib/net6.0/LiveChartsCore.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      },
       "Microsoft.CodeAnalysis.Analyzers/2.9.4": {},
       "Microsoft.CodeAnalysis.Common/3.3.1": {
         "dependencies": {
@@ -246,46 +283,46 @@
           "Microsoft.NETCore.Platforms": "3.1.0"
         }
       },
-      "ReactiveUI/18.4.44": {
+      "ReactiveUI/19.2.1": {
         "dependencies": {
-          "DynamicData": "7.13.5",
-          "Splat": "14.6.8"
+          "DynamicData": "7.14.2",
+          "Splat": "14.6.37"
         },
         "runtime": {
           "lib/net6.0/ReactiveUI.dll": {
-            "assemblyVersion": "18.4.0.0",
-            "fileVersion": "18.4.44.1605"
+            "assemblyVersion": "19.2.0.0",
+            "fileVersion": "19.2.1.22410"
           }
         }
       },
-      "ReactiveUI.Fody/18.4.44": {
+      "ReactiveUI.Fody/19.2.1": {
         "dependencies": {
           "Fody": "6.7.0",
-          "ReactiveUI": "18.4.44"
+          "ReactiveUI": "19.2.1"
         },
         "runtime": {
           "lib/net6.0/ReactiveUI.Fody.Helpers.dll": {
-            "assemblyVersion": "18.4.0.0",
-            "fileVersion": "18.4.44.1605"
+            "assemblyVersion": "19.2.0.0",
+            "fileVersion": "19.2.1.22410"
           }
         }
       },
-      "ReactiveUI.WPF/18.4.44": {
+      "ReactiveUI.WPF/19.2.1": {
         "dependencies": {
-          "ReactiveUI": "18.4.44"
+          "ReactiveUI": "19.2.1"
         },
         "runtime": {
           "lib/net462/ReactiveUI.Wpf.dll": {
-            "assemblyVersion": "18.4.0.0",
-            "fileVersion": "18.4.44.1605"
+            "assemblyVersion": "19.2.0.0",
+            "fileVersion": "19.2.1.22410"
           }
         }
       },
-      "Splat/14.6.8": {
+      "Splat/14.6.37": {
         "runtime": {
           "lib/net6.0/Splat.dll": {
             "assemblyVersion": "14.6.0.0",
-            "fileVersion": "14.6.8.29002"
+            "fileVersion": "14.6.37.51162"
           }
         }
       },
@@ -297,11 +334,11 @@
         }
       },
       "System.Memory/4.5.3": {},
-      "System.Reactive/5.0.0": {
+      "System.Reactive/6.0.0": {
         "runtime": {
-          "lib/net5.0/System.Reactive.dll": {
-            "assemblyVersion": "5.0.0.0",
-            "fileVersion": "5.0.0.1"
+          "lib/net6.0/System.Reactive.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.1"
           }
         }
       },
@@ -348,12 +385,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "DynamicData/7.13.5": {
+    "DynamicData/7.14.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-jpu26ujgGrMSO68t8b6ClEL3tvZy6K7np8Iem30JkQaLMeOCLxLCZ2Uk/Eyq67k/rwEWrraQ3FB5SBEKJaE2iw==",
-      "path": "dynamicdata/7.13.5",
-      "hashPath": "dynamicdata.7.13.5.nupkg.sha512"
+      "sha512": "sha512-r0QHWrxOuWngobI/QXbhvZvGNuLUjAo9ocDuSEsDftf47e6SulGoY8id6vMW2Oo5ZOi4c78NQlL22N+4CJ1CbA==",
+      "path": "dynamicdata/7.14.2",
+      "hashPath": "dynamicdata.7.14.2.nupkg.sha512"
     },
     "FastReport.Compat/2023.1.8": {
       "type": "package",
@@ -362,19 +399,19 @@
       "path": "fastreport.compat/2023.1.8",
       "hashPath": "fastreport.compat.2023.1.8.nupkg.sha512"
     },
-    "FastReport.OpenSource/2023.2.16": {
+    "FastReport.OpenSource/2023.2.17": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ljWBCSjhtDmIprjawya5sv3BTpHobAaeb4O/CErXdtkdFPzcqjaUR30M6eUfYqoe5F1MO1GUX/EklsaJ+qUqIg==",
-      "path": "fastreport.opensource/2023.2.16",
-      "hashPath": "fastreport.opensource.2023.2.16.nupkg.sha512"
+      "sha512": "sha512-3fplcCuMhRk3qsIyiYQ+HUWClFlZt2anb0D56M5FeWKBTn0mdk1WgdqUVlcmH2PvOa3kzN+Km9LYxbAgS4zSaA==",
+      "path": "fastreport.opensource/2023.2.17",
+      "hashPath": "fastreport.opensource.2023.2.17.nupkg.sha512"
     },
-    "FastReport.OpenSource.Export.PdfSimple/2023.2.16": {
+    "FastReport.OpenSource.Export.PdfSimple/2023.2.17": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-1EbVFPR3pNjZ3C0Zi8q6W13J8/QrU9lv+CiwncAd4ivRw8PPtiaLCF/JtZQdfOJm0mhsaoqy97eu54ulfjY3HQ==",
-      "path": "fastreport.opensource.export.pdfsimple/2023.2.16",
-      "hashPath": "fastreport.opensource.export.pdfsimple.2023.2.16.nupkg.sha512"
+      "sha512": "sha512-fi9BNbiPf+bcacScFDL+MbfxISQLAZBOR9pm89D/ICYpG6AaqerAgTluMykuz8X9DaQ06E9pSzFlGmKVQ+H2eA==",
+      "path": "fastreport.opensource.export.pdfsimple/2023.2.17",
+      "hashPath": "fastreport.opensource.export.pdfsimple.2023.2.17.nupkg.sha512"
     },
     "Fody/6.7.0": {
       "type": "package",
@@ -382,6 +419,41 @@
       "sha512": "sha512-apsA8Hp9sAuOVmn9byPnCuqiQEjhAApqwNfEG+Gu0OyHUZfjHhLwvNQnAaONDdHWDXP/pBgpGXuscVwfEym8zQ==",
       "path": "fody/6.7.0",
       "hashPath": "fody.6.7.0.nupkg.sha512"
+    },
+    "LiveCharts/0.9.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-p4xyBrUaNNfkWZSNsIle0r51cyVyFg0Yi0uBRZM5GQtdFiA/7guZHlffFyNUILIdux10Ch2hUaJpcZENVU9aaQ==",
+      "path": "livecharts/0.9.7",
+      "hashPath": "livecharts.0.9.7.nupkg.sha512"
+    },
+    "LiveCharts.Core/0.9.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-USb2TBOeER19X0ar5Zgki1ezjrSXBOmUoz3IqzTeksDm6hoaLFqs3iW9+wjHFuWNQGy9lLcVh2YIhhxVIg+zNQ==",
+      "path": "livecharts.core/0.9.8",
+      "hashPath": "livecharts.core.0.9.8.nupkg.sha512"
+    },
+    "LiveCharts.Wpf/0.9.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lv6YZoK0B4yWykMq5b9grZXtIbTj+OWu4sVN9GDpdgV6zffu64m4d5CW8KSjfSl9rB8VU649x1NZvhoU67hCDg==",
+      "path": "livecharts.wpf/0.9.7",
+      "hashPath": "livecharts.wpf.0.9.7.nupkg.sha512"
+    },
+    "LiveCharts.Wpf.Core/0.9.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jMBdknuG3EOMKA0NaqqwMjhsZpRAzd0UqP0SlwXIBJ+ZoJg5TF9C4rDdKqInEs+RycYmIwmrZWvmfDxsM5MMJw==",
+      "path": "livecharts.wpf.core/0.9.8",
+      "hashPath": "livecharts.wpf.core.0.9.8.nupkg.sha512"
+    },
+    "LiveChartsCore/2.0.0-beta.710": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6ak1We4oKlSDE5YGxR3LaCQdvmZS/Zg8GLgKCszQb+WJn3ozKneFquCSUw+O3BPq2e88RzAN6fK/95d7CuU68g==",
+      "path": "livechartscore/2.0.0-beta.710",
+      "hashPath": "livechartscore.2.0.0-beta.710.nupkg.sha512"
     },
     "Microsoft.CodeAnalysis.Analyzers/2.9.4": {
       "type": "package",
@@ -425,33 +497,33 @@
       "path": "microsoft.win32.systemevents/4.7.0",
       "hashPath": "microsoft.win32.systemevents.4.7.0.nupkg.sha512"
     },
-    "ReactiveUI/18.4.44": {
+    "ReactiveUI/19.2.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-DRtnK85MBdtwG+zjTluLWVnbUPzDOoHOFuIy6B4OAwvWNCkkRpf7FIHVwZz7cTjlG25eBeIJqWjgaejP6ejCHg==",
-      "path": "reactiveui/18.4.44",
-      "hashPath": "reactiveui.18.4.44.nupkg.sha512"
+      "sha512": "sha512-utHBuxDlB/Rajhi9EwgjSdXv8Lqwd2GU8sFlcjjeCBd3Y4lyVvcB9qS/SM87juZGf9mr1A7cd3ML/kEL+Lsxkg==",
+      "path": "reactiveui/19.2.1",
+      "hashPath": "reactiveui.19.2.1.nupkg.sha512"
     },
-    "ReactiveUI.Fody/18.4.44": {
+    "ReactiveUI.Fody/19.2.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-FmzTAmlzUoi2AK49FCiC7vfv92tWyf/ySIpY/Bm1iVQr7jEIHmN0KyvYt18QI4sdTMJi86GSTnTapZupiEPqIQ==",
-      "path": "reactiveui.fody/18.4.44",
-      "hashPath": "reactiveui.fody.18.4.44.nupkg.sha512"
+      "sha512": "sha512-G9yhjzf19zFZXwnM6L6AykEGTUg5hmDrEClMOyZ6uNlbRJRXDodoPkjnvFeOzlpzRl19ZHMgvOxNJ1QxUqW8lQ==",
+      "path": "reactiveui.fody/19.2.1",
+      "hashPath": "reactiveui.fody.19.2.1.nupkg.sha512"
     },
-    "ReactiveUI.WPF/18.4.44": {
+    "ReactiveUI.WPF/19.2.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-CYgYTfk50rgsMlTH+MLx7nQBR512FudbkEHiUiH5DIXIdKwsszoQOgxLp/DD/k4cfGJK3aUuLmNZUYYUxMbSiQ==",
-      "path": "reactiveui.wpf/18.4.44",
-      "hashPath": "reactiveui.wpf.18.4.44.nupkg.sha512"
+      "sha512": "sha512-QesHKeyUvVN0H8GjBpad10/8y7F7nPjAJVjdcMxrG6ntwh1ZA8pNVjQtcnGF5R6PVCW0eI+gRFS7HMGlxJhebQ==",
+      "path": "reactiveui.wpf/19.2.1",
+      "hashPath": "reactiveui.wpf.19.2.1.nupkg.sha512"
     },
-    "Splat/14.6.8": {
+    "Splat/14.6.37": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-WdhGXUvsWPNPzBLc/LC1Q5jLOczupHDc+4Skl0JaTEuyoDjxxe/Dme8UjGTkCPYbhnVWEsEJprWqyWDY5RNB9A==",
-      "path": "splat/14.6.8",
-      "hashPath": "splat.14.6.8.nupkg.sha512"
+      "sha512": "sha512-6BXbAks4Rqjo6dJW4KfTBZAf6ZRygjE78aVUbEBuSLwKGl+WZjsWZSIYIfYtqPbCEs74HvSTg+4xhSE93xl1kQ==",
+      "path": "splat/14.6.37",
+      "hashPath": "splat.14.6.37.nupkg.sha512"
     },
     "System.Collections.Immutable/1.5.0": {
       "type": "package",
@@ -474,12 +546,12 @@
       "path": "system.memory/4.5.3",
       "hashPath": "system.memory.4.5.3.nupkg.sha512"
     },
-    "System.Reactive/5.0.0": {
+    "System.Reactive/6.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-erBZjkQHWL9jpasCE/0qKAryzVBJFxGHVBAvgRN1bzM0q2s1S4oYREEEL0Vb+1kA/6BKb5FjUZMp5VXmy+gzkQ==",
-      "path": "system.reactive/5.0.0",
-      "hashPath": "system.reactive.5.0.0.nupkg.sha512"
+      "sha512": "sha512-31kfaW4ZupZzPsI5PVe77VhnvFF55qgma7KZr/E0iFTs6fmdhhG8j0mgEx620iLTey1EynOkEfnyTjtNEpJzGw==",
+      "path": "system.reactive/6.0.0",
+      "hashPath": "system.reactive.6.0.0.nupkg.sha512"
     },
     "System.Reflection.Metadata/1.6.0": {
       "type": "package",

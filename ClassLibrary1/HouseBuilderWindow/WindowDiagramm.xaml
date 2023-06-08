@@ -1,0 +1,17 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HouseBuilderWindow"
+        x:Class="HouseBuilderWindow.WindowDiagramm"
+        mc:Ignorable="d"
+        Title="WindowDiagramm" Height="450" Width="800"
+        xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf" 
+    xmlns:vm="clr-namespace:HouseBuilderWindow.ViewModels" xmlns:conv="clr-namespace:HouseBuilderWindow.Converters"
+    Background="Bisque">
+    <Window.Resources>
+        <conv:ObservableCollectionToSeriesCollectionConverter x:Key="OCtoSC"/>
+    </Window.Resources>
+    <lvc:PieChart LegendLocation="Right"  Series="{Binding Series}" Hoverable="True"/>
+</Window>
