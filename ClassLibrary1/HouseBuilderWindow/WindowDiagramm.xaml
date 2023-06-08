@@ -13,5 +13,5 @@
     <Window.Resources>
         <conv:ObservableCollectionToSeriesCollectionConverter x:Key="OCtoSC"/>
     </Window.Resources>
-    <lvc:PieChart LegendLocation="Right"  Series="{Binding Series}" Hoverable="True"/>
+    <lvc:PieChart LegendLocation="Right"  Series="{Binding Series}" Hoverable="True" Height="400" Width="700"/>
 </Window>
